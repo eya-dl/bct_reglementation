@@ -1,0 +1,1361 @@
+## AVIS DE CHANGE N°5 DU MINISTRE DU PLAN ET DES FINANCES RELATIF AUX COMPTES DE NON-RESIDENTS
+
+(Publié au J.O.R.T. du 5 octobre 1982)
+
+Le présent texte pris dans le cadre de l'article 19 du décret n°77-608 du 27 juillet 1977, fixant les conditions d'application de la loi n°76-18 du 21 janvier 1976, portant refonte et codification de la législation des changes et du commerce extérieur, règlemente l'ouverture et le fonctionnement des comptes ouverts en Tunisie au nom de personnes non-résidentes, à savoir :
+
+- Les comptes étrangers en dinars ou en devises convertibles destinés à recevoir leurs avoirs transférables (Chapitre I).
+- Les comptes et dossiers intérieurs non-résidents destinés à recevoir des avoirs revenant à des personnes physiques établies temporairement en Tunisie (Chapitre II).
+- Les comptes spéciaux en dinars destinés à recevoir des fonds en dinars revenant à des entreprises non-résidentes chargées de l'exécution de marchés en Tunisie (Chapitre III).
+- Les comptes et dossiers d'attente destinés à recevoir toutes les sommes en dinars et les valeurs mobilières revenant à leur titulaire et au sujet desquelles il n'a pas été statué sur leur destination finale (Chapitre IV).
+- Les comptes et dossiers capital destinés à recevoir les fonds et titres pour lesquels leurs propriétaires ne bénéficient d'aucune garantie de transfert (Chapitre V).
+
+Il abroge et remplace notamment les Avis n°3 de la Banque Centrale de Tunisie, 100 et 117 du Secrétariat d'Etat au Plan et à l'Economie Nationale.
+
+## CHAPITRE PREMIER COMPTES ETRANGERS EN DINARS ET COMPTES ETRANGERS EN DEVISES CONVERTIBLES
+
+Les non-résidents peuvent se faire ouvrir librement sur les livres des Intermédiaires Agréés des comptes étrangers fonctionnant dans les conditions fixées au présent avis de change et tenus soit en dinars (section 1) soit en devises (section 2).
+
+[NOTE] 1 Ainsi modifié par l'avis de change n° 6 paru au JORT du 20/5/1983.
+
+Tout découvert en compte étranger de même que, d'une façon générale, toute avance consentie à un nonrésident, sont subordonnés à l'autorisation de la Banque Centrale de Tunisie 1 .
+
+## SECTION 1 COMPTES ETRANGERS EN DINARS CONVERTIBLES
+
+## REGLES DE FONCTIONNEMENT
+
+## A) Opérations au crédit
+
+- 1°) Les comptes étrangers en "dinars convertibles" peuvent être crédités sans autorisation préalable :
+a) du produit en dinars de la cession à la Banque Centrale de Tunisie de devises convertibles.
+
+La cession de billets de banque étrangers est effectuée au vu d'une déclaration d'importation visée par la Douane 1 .
+
+b) des sommes provenant d'un autre compte étranger en dinars convertibles ;
+c) des intérêts produits par les sommes déposées dans le compte, calculés selon un taux fixé par circulaire de la Banque Centrale de Tunisie.
+3. 2°) Toute autre inscription au crédit d'un compte étranger en dinars convertibles doit être préalablement autorisée, que ce soit directement ou par délégation.
+
+## B) - Opérations au débit
+
+Les comptes étrangers en "dinars convertibles" peuvent être débités sans autorisation préalable :
+
+a) en vue de l'achat de toutes devises étrangères à la Banque Centrale de Tunisie, étant entendu que ces devises peuvent être, soit transférées, soit remises en Tunisie au titulaire du compte ou à tout autre bénéficiaire non-résident du prélèvement, ou à un résident, pour effectuer un voyage d'affaires à l'étranger, s'il a la qualité de représentant permanent ou d'employé salarié du titulaire du compte.
+
+Les devises sous forme de billets de banques ne peuvent être remises en vue de leur transfert à l'étranger que dans la limite d'un montant ne dépassant pas la contrevaleur de trente mille (30.000) dinars pour tout bénéficiaire parmi les personnes susvisées pour effectuer un voyage à l'étranger. 3
+
+b) par crédit d'un compte étranger en "dinars convertibles"
+c) pour tout paiement en Tunisie, quel que soit le pays de résidence du non-résident, pour le compte duquel est effectué le paiement * .
+
+3 A insi modifié par l'avis de change du 24 novembre 2017 paru au JORT du 24/11/2017
+
+* Cette règle qui ne vise que la possibilité d'opérer des prélèvements au débit des comptes étrangers en dinars n'apporte, par ailleurs aucune
+
+## SECTION 2 COMPTES ETRANGERS EN DEVISES CONVERTIBLES
+
+## REGLES DE FONCTIONNEMENT
+
+## A) - Opérations au crédit
+
+Les comptes étrangers en devises convertibles peuvent être crédités:
+
+a) des versements de devises convertibles.
+
+Le versement des billets de banque étrangers est effectué au vu d'une déclaration d'importation visée par la Douane 1 .
+
+b) du montant de l'encaissement de chèques, de chèques de voyage ou d'effets libellés en devises convertibles tirés par un non-résident à l'ordre du titulaire du compte. Ces chèques ou ces effets devront selon le cas, être émis sur une banque étrangère ou un compte étranger en devises convertibles ou tirés sur un non-résident.
+
+c) des montants en devises achetés à la Banque Centrale de Tunisie par le débit d'un compte étranger en dinars convertibles ou pour l'exécution de règlements autorisés dans les conditions fixées par avis de change. Etant entendu que selon le cas, les sommes sont versées en compte directement par l'Intermédiaire Agréé chez lequel est tenu le compte débité ou chargé de l'exécution du règlement.
+
+d) des intérêts produits par les sommes déposées dans le compte, si elles sont employées par l'Intermédiaire Agréé à un taux rémunérateur, dans les conditions fixées par circulaire de la Banque Centrale de Tunisie.
+
+Toute autre inscription au crédit d'un compte étranger en devises convertibles, doit être préalablement autorisée, que ce soit directement ou par délégation.
+
+## B) Opérations au débit
+
+Les comptes étrangers en devises convertibles peuvent être débités:
+
+a) de la cession desdites devises à la B.C.T
+
+modification aux dispositions de la réglementation des changes selon lesquelles la réalisation de certaines opérations nécessite une autorisation préalable.
+
+[NOTE] 1 Ainsi modifié par l'avis de change n° 6 paru au JORT du 20/5/1983.
+
+b) pour tout transfert à l'étranger ou la remise de devises au titulaire du compte ou à tout autre bénéficiaire non-résident du prélèvement ou à un résident, pour effectuer un voyage d'affaires à l'étranger, s'il a la qualité de représentant permanent ou d'employé salarié du titulaire du compte.
+
+Les devises sous forme de billets de banques ne peuvent être remises en vue de leur transfert à l'étranger que dans la limite d'un montant ne dépassant pas la contrevaleur de trente mille (30.000) dinars pour chaque bénéficiaire parmi les personnes susvisées pour effectuer un voyage à l'étranger. 3
+
+c) pour le crédit de tout compte étranger.
+
+## CHAPITRE II COMPTES ET DOSSIERS INTERIEURS NONRESIDENTS
+
+Les Intermédiaires Agréés sont habilités à ouvrir, sur leurs livres, sans autorisation préalable, des comptes et dossiers intérieurs non-résidents au nom de personnes physiques non-résidentes, de nationalité étrangère établies temporairement en Tunisie.
+
+Ils doivent exiger à cet effet :
+
+- Un contrat d'engagement en cours de validité dûment signé par le département employeur, lorsqu'il s'agit d'une personne employée dans le cadre d'une convention internationale de coopération culturelle, scientifique ou technique.
+
+- Un contrat de travail visé par le Ministre des Affaires Sociales lorsque le demandeur est employé dans le secteur privé.
+
+Il est à signaler que les non-résidents ressortissants d'un Etat ayant conclu avec la Tunisie une convention d'établissement ne sont pas astreints à la formalité du visa du Ministère des Affaires Sociales.
+
+Lorsque le demandeur est employé dans une entreprise étrangère non-résidente titulaire d'un marché en Tunisie, il doit fournir à l'Intermédiaire Agréé une attestation de travail délivrée par l'employeur accompagnée d'une copie de l'autorisation préalable du marché par la Banque Centrale.
+
+D'autre part, l'Intermédiaire Agréé est tenu d'exiger du titulaire du compte la remise d'un engagement souscrit conformément au modèle joint en annexe, et ce préalablement à l'ouverture du compte ou du dossier intérieur non-résident 1 .
+
+3 A insi modifié par l'avis de change du 24 novembre 2017 paru au JORT du 24/11/2017
+
+[NOTE] 1 Ainsi modifié par l'avis de change n° 6 paru au JORT du 20/5/1983.
+
+## SECTION 1 REGLES DE FONCTIONNEMENT DES COMPTES ET DOSSIERS I.N.R.
+
+## I - COMPTES I.N.R.
+
+## A) Opérations au crédit
+
+Les comptes I.N.R. peuvent être crédités, sans autorisation de la Banque Centrale :
+
+1°) Du montant des transferts de fonds réalisés dans des monnaies convertibles en provenance d'un pays étranger.
+
+2°) Des sommes représentant des revenus de toute nature recueillis en Tunisie par le titulaire du compte, et en particulier la rémunération de services rendus par lui en Tunisie ;
+
+3°) Des avoirs liquides régulièrement attribués au titulaire du compte dans des successions ouvertes en Tunisie ;
+
+4°) Du produit de l'amortissement, contractuel ou anticipé, de valeurs mobilières tunisiennes ou étrangères reposant sous dossiers I.N.R. du titulaire du compte ;
+
+5°) Du produit de la vente en Bourse, en Tunisie, de valeurs mobilières tunisiennes reposant sous dossiers I.N.R. du titulaire du compte.
+
+6°) Du produit du remboursement de prêts antérieurement consentis en dinars par le débit du compte I.N.R. à créditer ;
+
+7°) Des sommes provenant d'un autre compte I.N.R. ouvert au nom du titulaire du compte.
+
+Toute autre inscription au crédit d'un compte I.N.R. est subordonnée à l'autorisation préalable de la Banque Centrale de Tunisie. Il en est ainsi, notamment, de l'inscription en compte I.N.R. des sommes représentant le produit de la vente de biens immeubles, de droits immobiliers ou de fonds de commerce situés en Tunisie.
+
+## B) Opérations au débit
+
+Les comptes I.N.R. peuvent être débités sans autorisation de la Banque Centrale de Tunisie :
+
+1°) Des sommes nécessaires à l'entretien en Tunisie du titulaire du compte et de sa famille ;
+
+2°) Pour le règlement des frais occasionnés par l'administration des biens en Tunisie du titulaire du compte;
+
+3°) Pour la souscription au moyen de droits reposant sous dossier I.N.R. du titulaire, de valeurs mobilières tunisiennes sous réserve que les titres souscrits soient déposés sous un dossier I.N.R. ouvert ou à ouvrir au nom du titulaire du compte débité ;
+
+4°) Pour la souscription aux émissions d'obligations tunisiennes à court terme ou de bons tunisiens à court terme, sous réserve que les titres souscrits soient déposés sous un dossier I.N.R. ouvert ou à ouvrir au nom du titulaire du compte débité ;
+
+5°) Pour l'octroi, par le titulaire du compte, à des résidents de prêts stipulés en Dinars ;
+
+6°) Pour le crédit d'un autre compte I.N.R. ouvert au nom du titulaire du compte ;
+
+Tout autre prélèvement au débit d'un compte I.N.R. est subordonné à l'autorisation préalable de la Banque Centrale de Tunisie. Il en est ainsi, notamment, du prélèvement de sommes destinées à l'achat de biens immeubles, de droits immobiliers, de fonds de commerce situés en Tunisie ou de valeurs mobilières.
+
+## II - DOSSIERS I.N.R.
+
+1°) En règle générale, la mise de valeurs mobilières sous un dossier I.N.R. est subordonnée à l'autorisation préalable de la Banque Centrale de Tunisie, que ces valeurs soient prélevées d'un dossier ouvert en Tunisie ou importées de l'étranger.
+
+Par dérogation à cette règle, il est accordé aux Intermédiaires Agréés dans les écritures desquels sont ouverts des dossiers I.N.R. une autorisation générale leur permettant de procéder à la mise sous ces dossiers:
+
+a) Des valeurs mobilières tunisiennes souscrites en Tunisie au moyen de droits reposant sous dossier I.N.R. par le débit du compte I.N.R. du titulaire du dossier à créditer.
+
+b) Des valeurs mobilières tunisiennes souscrites en Tunisie en remploi de valeurs mobilières tunisiennes déjà classées sous le dossier I.N.R. intéressé, lorsque l'opération de remploi est réalisée conformément aux dispositions du paragraphe 2 (b ou c) ci-dessous ;
+
+c) Des valeurs mobilières tunisiennes ou étrangères attribuées gratuitement en vertu de droits reposant sous le dossier I.N.R. intéressé ;
+
+d) Des valeurs mobilières tunisiennes ou étrangères attribuées régulièrement au titulaire du dossier dans des successions ouvertes en Tunisie;
+
+e) Des valeurs mobilières tunisiennes ou étrangères provenant d'un autre dossier I.N.R. ouvert au nom du titulaire du dossier (cf. 3è ci-dessous) ;
+
+2°) Les valeurs mobilières tunisiennes classées sous un dossier I.N.R. peuvent être vendues en Bourse en Tunisie sans autorisation de la Banque Centrale de Tunisie, le produit de la vente devant :
+
+a) soit être porté au crédit du compte I.N.R. du titulaire du dossier ;
+
+b) soit être utilisé pour la souscription au moyen de droits reposant sous dossier I.N.R. du titulaire, de valeurs mobilières tunisiennes sous réserve que les titres souscrits soient déposés sous le même dossier I.N.R.
+
+c) soit être utilisé pour la souscription aux émissions d'obligations tunisiennes à court terme ou de bons tunisiens à court terme, sous réserve que les titres souscrits soient déposés sous le même dossier I.N.R.
+
+3°) Les valeurs mobilières tunisiennes ou étrangères classées sous dossiers I.N.R. peuvent être virées, sans autorisation de la Banque Centrale de Tunisie, entre dossiers I.N.R. ouverts au nom du même titulaire.
+
+## SECTION 2 TRANSFORMATION OU CLOTURE DES COMPTES ET DOSSIERS I.N.R.
+
+1°) Toute transformation d'un compte ou d'un dossier I.N.R. en compte ou en dossier intérieur doit être soumise à l'examen de la Banque Centrale de Tunisie de même que la mise sous le régime "étranger" ou "capital" d'avoirs figurant en compte ou sous dossier I.N.R. ;
+
+2°) Les Intermédiaires Agréés doivent signaler à la Banque Centrale de Tunisie, dans le mois suivant, les clôtures de comptes ou de dossiers I.N.R. auxquelles ils sont amenés à procéder autrement que dans les cas visés au paragraphe 1 ci-dessus.
+
+## CHAPITRE III COMPTES SPECIAUX EN DINARS 1
+
+Les entreprises étrangères non-résidentes titulaires de marchés en Tunisie ayant reçu l'accord de la Banque Centrale de Tunisie peuvent se faire ouvrir, librement auprès d'un Intermédiaire Agréé de leur choix un seul compte spécial en Dinars par marché pour y loger la partie du prix du marché payable en dinars et destinée à couvrir leurs dépenses locales.
+
+Le compte dont l'ouverture donne lieu à information de la Banque Centrale, peut être crédité également :
+
+- par le débit d'un compte étranger en dinars convertibles.
+
+- de la contre-valeur de devises prélevées sur un compte étranger en devises convertibles.
+
+- de la contre-valeur de tout virement en devises convertibles en provenance de l'étranger.
+
+- des intérêts produits par les sommes déposées dans le compte, calculés selon un taux fixé par circulaire de la BCT.
+
+Il peut être débité librement pour les dépenses à effectuer par l'entreprise en Tunisie dans le cadre du marché et conformément à ses stipulations.
+
+[NOTE] 1 Ainsi modifié par l'avis de change n° 6 paru au JORT du 20/5/1983.
+
+Les comptes spéciaux en dinars ne peuvent donner lieu à aucune opération de transfert sans l'autorisation préalable de la Banque Centrale de Tunisie. Celle-ci est habilitée à apporter toute précision ou modification aux règles de fonctionnement de ces comptes.
+
+## CHAPITRE IV COMPTES ET DOSSIERS D'ATTENTE
+
+Les comptes d'attente et les dossiers d'attente sont ouverts au nom de personnes non-résidentes et destinés à recevoir toutes les sommes en dinars et toutes les valeurs mobilières revenant à leurs titulaires et dont la Banque Centrale de Tunisie n'a pas encore décidé la destination finale. Leur ouverture est libre.
+
+## SECTION 1 LES COMPTES D'ATTENTE
+
+## REGLES DE FONCTIONNEMENT
+
+## A) - Opérations au crédit
+
+Toute inscription au crédit des comptes d'attente est libre. Toutefois, les Intermédiaires Agréés ne peuvent servir des intérêts créditeurs à ces comptes.
+
+## B) - Opérations au débit
+
+Tout acte de disposition sur les disponibilités des comptes d'attente est subordonné à l'autorisation préalable de la Banque Centrale de Tunisie sauf en ce qui concerne les opérations suivantes :
+
+1°) La souscription au moyen de droits reposant sous dossier d'attente du titulaire du compte d'attente débité, de valeurs mobilières tunisiennes, sous réserve que les titres souscrits soient déposés sous un dossier d'attente ouvert ou à ouvrir au nom du titulaire du compte débité et que leurs revenus seront versés en compte d'attente.
+
+2°) La souscription aux émissions d'obligations ou de bons à court terme, sous réserve que les titres souscrits soient déposés sous dossiers d'attente et que leurs revenus soient versés en compte d'attente.
+
+3°) Le paiement des frais de gestion de valeurs mobilières déposées sous un dossier d'attente ouvert au nom du titulaire du compte d'attente débité.
+
+4°) Tout paiement pour le compte du titulaire au profit des Administrations ou Etablissements publics tunisiens ;
+
+5°) Le débit d'un compte d'attente pour le crédit d'un autre compte d'attente ouvert au nom du même titulaire ;
+
+6°) Le règlement des frais de séjour exposé en Tunisie par le titulaire du compte ou sa famille (conjoint, ascendants et descendants au premier degré). Ces prélèvements qu'ils soient effectués sur un ou plusieurs comptes sont limités à 100 dinars par personne et par semaine sans que l'ensemble des prélèvements effectués au cours d'une année civile puisse excéder 2.000 dinars pour une même famille 2 .
+
+De plus le titulaire d'un compte d'attente dont le voyage en Tunisie se situe dans la période du 1er novembre au 31 mars, peut bénéficier du retrait d'une somme égale au montant des devises importées à l'occasion de ce voyage et cédées à la Banque Centrale de Tunisie, à un Intermédiaire Agréé ou à un sousdélégataire, sans, toutefois, que ce retrait puisse porter l'ensemble des prélèvements effectués au cours de chaque année au titre de règlement des frais de séjour du titulaire du compte ou de sa famille à plus de 2.000 Dinars par an.
+
+L'Intermédiaire Agréé sur les livres duquel est ouvert le compte doit se faire délivrer :
+
+- par le titulaire du compte, une déclaration aux termes de laquelle il n'a pas bénéficié d'un autre prélèvement à partir d'un autre compte d'attente ou de capital.
+
+- par le bénéficiaire du prélèvement au titre de membre de la famille du titulaire du compte débité, une déclaration aux termes de laquelle, il n'est pas personnellement titulaire d'un compte d'attente ou de capital.
+
+7°) Le débit à titre de secours en faveur des ascendants et descendants directs du titulaire du compte résidant en Tunisie. Ces prélèvements sont limités à 50Dinars par mois et par personne.
+
+Le bénéficiaire du prélèvement doit fournir les pièces suivantes :
+
+- Tout document probant établissant son lien de parenté avec le titulaire du compte d'attente.
+
+- Un certificat de non imposition.
+
+- Un certificat de résidence en Tunisie.
+
+## SECTION 2 DOSSIERS D'ATTENTE
+
+Les dossiers d'attente peuvent recevoir toutes valeurs mobilières revenant à leur titulaire. Toutefois, toute opération de disposition sur ces valeurs mobilières est subordonnée à l'autorisation préalable de la Banque Centrale de Tunisie sauf en ce qui concerne la vente en bourse des valeurs mobilières admises à la cote. Le produit d'une telle vente doit être porté au crédit d'un compte d'attente ouvert ou à ouvrir au nom du titulaire du dossier où reposaient les titres vendus.
+
+[NOTE] 2 Ainsi modifié par l'avis de change n°8 paru au JORT du 22/6/1984.
+
+## CHAPITRE V COMPTES ET DOSSIERS "CAPITAL"
+
+Les comptes et les dossiers "Capital" sont destinés à recevoir les avoirs et les titres appartenant à des personnes résidant hors de Tunisie et qui ne bénéficient d'aucune garantie de transfert.
+
+## SECTION 1 COMPTE CAPITAL
+
+## I - OUVERTURE DES COMPTES "CAPITAL"
+
+1°) L'ouverture sur les livres d'un Intermédiaire Agréé en Tunisie d'un compte "Capital" au nom d'une personne physique de nationalité étrangère nonrésidente ou d'une personne morale non-résidente ne nécessite aucune autorisation de la Banque Centrale de Tunisie.
+
+Par contre l'ouverture d'un compte de cette nature au nom d'une personne physique de nationalité tunisienne ou de son conjoint est subordonnée à l'autorisation de la Banque Centrale de Tunisie.
+
+2°) Toute somme inscrite au crédit d'un compte "Capital" perd du point de vue de la réglementation son caractère d'origine et ne peut plus donner lieu qu'aux opérations prévues par le présent avis.
+
+## II - FONCTIONNEMENT DES COMPTES "CAPITAL"
+
+## A) - Opérations au Crédit
+
+Les comptes "Capital" peuvent être crédités, sans autorisation de la Banque Centrale de Tunisie:
+
+a) du produit de la vente en bourse en Tunisie de valeurs mobilières tunisiennes cotées déposées sous un dossier "Capital" ou importées de l'étranger accompagnées de certificats de propriété réguliers permettant de les placer sous un dossier "Capital".
+
+b) du produit de l'amortissement contractuel ou anticipé de valeurs mobilières tunisiennes déposées sous un dossier "Capital" ou importées de l'étranger accompagnées de certificats de propriété réguliers permettant de les placer sous un dossier "Capital".
+
+c) du produit de la vente par l'intermédiaire d'un avocat à la Cour de Cassation de biens immeubles ou de droits immobiliers situés en Tunisie régulièrement acquis par le titulaire du compte par achat, par dévolution héréditaire ou en vertu de tout autre droit.
+
+L'acquéreur doit être un résident.
+
+L'Intermédiaire Agréé sur les livres duquel est ouvert le compte à créditer est tenu de se faire remettre par l'avocat chargé de l'opération, un avis indiquant sous la responsabilité de ce dernier:
+
+- Les nom, adresse et nationalité du vendeur.
+- les nom, adresse et nationalité de l'acquéreur.
+- La situation cadastrale des biens faisant l'objet de l'opération.
+- Le prix de vente inscrit dans le contrat et dont le montant doit être versé en compte "Capital".
+
+Cet avis vaut autorisation pour l'Intermédiaire Agréé de créditer le compte "Capital" du vendeur.
+
+D'autre part, l'Intermédiaire Agréé est tenu sous sa responsabilité de n'accepter le versement en compte "Capital" que des fonds qui lui sont remis directement par l'avocat chargé de l'opération.
+
+d) De fonds provenant d'un autre compte "Capital".
+
+Toute autre opération au crédit d'un compte "Capital" est subordonnée à une autorisation particulière de la Banque Centrale de Tunisie qui doit être sollicitée par l'entremise de l'Intermédiaire Agréé sur les livres duquel est ouvert le compte à créditer.
+
+Les Intermédiaires Agréés ne peuvent servir des intérêts créditeurs aux titulaires de comptes "Capital".
+
+## B) - Opérations au débit
+
+Les disponibilités des comptes "Capital" peuvent être utilisées, sans autorisation de la Banque Centrale de Tunisie en vue de la réalisation des opérations suivantes:
+
+a) Règlement des dépenses énumérées ci-après, afférentes à la gestion des avoirs en Tunisie appartenant à des non-résidents lorsque ces avoirs sont constitués sous forme de valeurs mobilières tunisiennes déposées sous un dossier "Capital" ou de biens immeubles :
+- en ce qui concerne les valeurs mobilières : droits de garde, commissions ;
+- en ce qui concerne les biens immeubles : frais d'entretien et de réparation, impôts fonciers, assurances.
+
+L'Intermédiaire Agréé sur les livres duquel est ouvert le compte "Capital" à débiter est tenu de se faire remettre, avant exécution de l'ordre de débit, toutes pièces justificatives établissant la réalité de la dépense et son importance : factures, devis de l'entrepreneur, avis de paiement, etc.
+
+[NOTE] 2 Ainsi modifié par l'avis de change n°8 paru au JORT du 22/6/1984.
+
+Ces règlements ne peuvent être effectués qu'en l'absence de produits ou revenus suffisants des valeurs mobilières et immeubles en question et sous réserve que les fonds ne proviennent pas d'une cession de compte "Capital".
+
+b) Règlement de frais de séjour exposés en Tunisie par le titulaire du compte ou de sa famille (conjoint, ascendants et descendants au premier degré) lorsqu'il ne s'agit pas de disponibilités provenant de la cession d'un autre compte "Capital".
+
+Ces prélèvements qu'ils soient effectués sur un ou plusieurs comptes, sont limités à 100 dinars par personne et par semaine sans que l'ensemble des prélèvements effectués au cours d'une année civile puisse excéder 2.000 dinars pour une même famille 2 .
+
+De plus, le titulaire d'un compte "Capital" dont le voyage en Tunisie se situe dans la période du 1er novembre au 31 mars, peut bénéficier du retrait d'une somme égale au montant des devises importées à l'occasion de ce voyage et cédées à la Banque Centrale de Tunisie, à un Intermédiaire Agréé ou à un sousdélégataire, sans, toutefois, que ce retrait puisse porter l'ensemble des prélèvements effectués au cours de chaque année au titre de règlement des frais de séjour du titulaire du compte ou de sa famille à plus de 2.000 Dinars par an.
+
+L'Intermédiaire Agréé sur les livres duquel est ouvert le compte doit se faire délivrer :
+
+- par le titulaire du compte, une déclaration aux termes de laquelle il n'a pas bénéficié d'un autre prélèvement à partir d'un autre compte d'attente ou de capital.
+- par le bénéficiaire du prélèvement au titre de membre de la famille du titulaire du compte débité, une déclaration aux termes de laquelle, il n'est pas personnellement titulaire d'un compte d'attente ou de Capital.
+c) Le débit à titre de secours en faveur des ascendants et descendants directs du titulaire du compte résidant en Tunisie. Ces prélèvements sont limités à 50 Dinars par mois et par personne.
+
+Le bénéficiaire du prélèvement doit fournir les pièces suivantes :
+
+- Tout document probant établissant son lien de parenté avec le titulaire du compte capital;
+- Un certificat de non imposition ;
+- Un certificat de résidence en Tunisie.
+d) Paiement de tous impôts et taxes dus à l'Etat ou aux Communes en Tunisie par le titulaire d'un compte "Capital" ne provenant pas de la cession d'un autre compte "Capital".
+e) Virement par le crédit d'un autre compte "Capital".
+
+Il est bien entendu que ces comptes ne peuvent en aucun cas être rendus débiteurs.
+
+Toute autre opération au débit d'un compte "Capital" est subordonnée à une autorisation particulière de la Banque Centrale de Tunisie qui doit être sollicitée par l'entremise de l'Intermédiaire Agréé sur les livres duquel est ouvert le compte à débiter.
+
+## III - CESSION ENTRE NON-RESIDENTS DES DISPONIBILITES DES COMPTES "CAPITAL"
+
+La faculté d'opérer sans autorisation des virements entre comptes Capital entraîne la possibilité pour deux non-résidents non tunisiens de se céder librement tout ou partie de leurs avoirs en compte "Capital". Les comptes "Capital" ne peuvent être cédés à des personnes morales de droit public.
+
+## SECTION 2 DOSSIER "CAPITAL"
+
+## I - OUVERTURE DES DOSSIERS "CAPITAL"
+
+L'ouverture des dossiers "Capital" obéit aux mêmes règles que celles relatives à l'ouverture des comptes Capital (section I, I).
+
+## II - REGLES DE FONCTIONNEMENT DES DOSSIERS "CAPITAL"
+
+Dans le souci de faciliter la gestion des valeurs mobilières détenues sous dossier "Capital", les Intermédiaires Agréés sont habilités par le présent avis de change à procéder à des virements de valeurs mobilières entre dossiers "Capital".
+
+Au cas où les dossiers "Capital" objet du virement, ne sont pas détenus chez le même Intermédiaire Agréé, il appartiendra à l'Intermédiaire Agréé qui tient le dossier "Capital" débité de remettre un avis à l'Intermédiaire Agréé qui tient le dossier "Capital" à créditer portant sur l'origine des valeurs mobilières, objet du virement. Cet avis vaudra pour le dernier Intermédiaire Agréé autorisation de placer les titres reçus sous un dossier "Capital".
+
+Il est à préciser, d'autre part, que le produit de l'encaissement des coupons ou d'intérêts d'obligations ou de bons à court terme, déposés sous dossier "Capital" doit être versé au crédit d'un compte "Capital".
+
+Par obligation ou bon à court terme, il faut entendre les valeurs à revenu fixe ayant à courir un délai égal ou inférieur à 2 ans.
+
+## SECTION 3 DISPOSITIONS GENERALES
+
+Les Intermédiaires Agréés doivent communiquer à la Banque Centrale de Tunisie au plus tard le 15 de chaque mois, un état des comptes et dossiers "Capital" ouverts sur leurs livres, comprenant les renseignements ci-après :
+
+- 1°) Pour les comptes "Capital" :
+- Nom et prénom ou raison sociale du titulaire
+- Avoir en compte.
+- 2°) Pour les dossiers "Capital" :
+- Nom et prénom ou raison sociale du titulaire;
+- Date de dépôt des valeurs mobilières ;
+- -Désignation des valeurs mobilières avec indication de leur nominal.
+
+## A N N E X E
+
+## ENGAGEMENT A SOUSCRIRE PAR LES TITULAIRES DE COMPTES OU DE DOSSIERS I.N.R.
+
+Je soussigné(1) ...................................... établi temporairement à .................................... titulaire d'un (compte) (dossier).............................I.N.R. chez(2) ............................................................. Reconnais avoir pris connaissance des conditions de fonctionnement de ce (compte) (dossier) ......................................................................... ............ telles qu'elles résultent des dispositions de l'avis de change N° ................. relatif aux comptes de non- résidents.
+
+Je m'engage à n'utiliser ce (compte) (dossier)............... que pour les opérations effectuées pour mon compte personnel et je m'interdis, notamment, d'utiliser les disponibilités de mon compte I.N.R. pour le compte de tiers (personnes physiques ou morales) résidant ou établis hors de la Tunisie.
+
+De même, je m'interdis de céder les disponibilités de mon compte INR à des tiers (personnes physiques ou morales) résidant ou établis hors de la Tunisie.
+
+Je m'interdis également de posséder en même temps que mon (compte) (dossier)................ I.N.R. un compte ou un dossier intérieur Tunisien.
+
+Fait à ..............., le .................
+
+(1) Nom, prénoms, qualité.
+
+(2) Désignation de l'Intermédiaire Agréé chez lequel est tenu le compte ou le dossier I.N.R.
+
+## CIRCULAIRE AUX BANQUES NONRESIDENTES N°86-05 DU 25 FEVRIER 1986
+
+## OBJET : Change manuel.
+
+La loi n°85-108 du 6 décembre 1985, portant encouragement d'organismes financiers et bancaires travaillant essentiellement avec des non-résidents a élargi le domaine d'activité de ces institutions en les autorisant notamment, à assurer le change manuel au profit de leur clientèle non-résidente dans les conditions fixées par la Banque Centrale de Tunisie. Tel est l'objet de la présente circulaire.
+
+## 1°) Le change manuel :
+
+En vertu de l'Article 6de la loi n°85-108, les banques non-résidentes sont habilitées à effectuer des opérations de change manuel en faveur de leurs clients non-résidents titulaires de comptes en devises ouverts sur leurs livres.
+
+A cet effet, elles sont autorisées à détenir une encaisse en dinars et en devises. Cette encaisse est alimentée en dinars par des cessions de devises à la Banque Centrale de Tunisie, par le débit d'un compte étranger en dinars convertibles ou par les dinars rétrocédés par leurs clients non-résidents dans les conditions fixées par la réglementation des changes. Elle est alimentée en devises par leurs acquisitions de billets de banque étrangers auprès de la Banque Centrale de Tunisie ou de la clientèle non-résidente de la banque.
+
+Chaque opération de change manuel de devises en dinars doit donner lieu à l'établissement d'un bordereau de change en double exemplaire conformément au modèle en annexe I. Le primata doit être remis au client et le duplicata conservé par la banque.
+
+2°) Crédit et débit en billets de banque des comptes en devises :
+
+## a) Crédit :
+
+Les banques non-résidentes sont autorisées à inscrire au crédit des comptes en devises ouverts sur leurs livres au nom de non-résidents les billets de banque étrangers importés.
+
+Le versement de ces billets étrangers est effectué au vu d'une déclaration d'importation en original visée par la douane et que la banque doit conserver.
+
+## b) Débit :
+
+Chaque opération de débit en billets de banque d'un compte en devises ouvert sur les livres d'une banque non-résidente doit donner lieu à la délivrance d'un bordereau de vente de devises. Ce bordereau doit être établi en double exemplaire conformément au modèle en annexe II. Le primata doit être remis au client et le duplicata conservé par la banque.
+
+## ANNEXE I A LA CIRCULAIRE AUX BANQUES NON-RESIDENTES N°86-05 DU 25-02-1986
+
+## RAISON SOCIALE DE LA BANQUE NON-RESIDENTE
+
+Agence de............................
+
+## ACHAT DE DEVISES
+
+N°..................................
+
+Identification du client
+
+M..................................................
+
+Muni du Passeport N°...........................
+
+Adresse.......................................
+
+Délivré à....................... Le..........................
+
+N° du compte.............................. Nationalité......................................................
+
+Nature des devises
+
+Montant en devises
+
+Cours du jour
+
+Contre-valeur en dinars
+
+...
+
+Coupures de
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+Total à recevoir
+
+CACHET DE LA BANQUE
+
+Prise en charge : le Caissier
+
+Mode de paiement(1)
+
+(1) Indiquer s'il s'agit de paiement par débit du compte ou par cession de billets.
+
+- Avis important : voir au verso.
+
+- Important notice : See reverse page.
+
+## ANNEXE I (SUITE) A LA CIRCULAIRE AUX BANQUES NON-RESIDENTES N°86-05 DU 25/02/86
+
+احتفظ بالأوراق المثبتة لإبدالك العملة الأجنبية بالدينار حتى يتسنى لك عند مغادرة الجمهوري ة التونسية إبدال ما بقي لديك من الدينارات بالعملة الأجنبية بحساب 30 بالمائة من جملة العملة التي ( أبدلتها بدون أن يفوق ذلك مائة دينار 100 .) دينار
+
+و إذا كانت إقامتك بالجمهوري ة التونسية لا تتعدى 24 سعة يجوز لكا ابدل كل تلك الدينارات بدون اعتبار النسبة المائوية و المقدار.
+
+Conservez les bordereaux d'échange de devises contre des dinars tunisiens en vue de reconvertir, le cas échéant, lors de votre départ, les dinars vous restant à concurrence de 30% des devises cédées avec un maximum de 100 dinars.
+
+Lorsque le séjour n'a pas dépassé 24 heures, la reconversion des dinars se fait sans limitation de pourcentage ni de montant.
+
+- --------------
+
+Please Keep exchange schedule of currency against Tunisian dinars in order to convert eventually during your departure the dinars which are left in the proportion of 30% of the currency given with a maximum of 100 dinars.
+
+When the period has not exceeded 24 hours the reconversion of the dinars is done without limitation of pourcentage and amount.
+
+## ANNEXE II A LA CIRCULAIRE AUX BANQUES NON-RESIDENTES N°86-05 DU 25-02-1986
+
+RAISON SOCIALE DE LA BANQUE NON-RESIDENTE
+
+…………….
+
+## VENTE DE DEVISES
+
+N°.................................
+
+| Identification du client | M.......................................................... Accompagné de............................ personnes | M.......................................................... Accompagné de............................ personnes | M.......................................................... Accompagné de............................ personnes | M.......................................................... Accompagné de............................ personnes | M.......................................................... Accompagné de............................ personnes | M.......................................................... Accompagné de............................ personnes |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| Identification du client | Nature des devises | Nature des devises | | Cours du jour | Contre-valeur en dinars | |
+| Identification du client | ...................................... | ...................................... | ........................................ | ................... ................... | ........................... ........................... | |
+| Identification du client | ...................................... | ...................................... | ........................................ | ........................................ | | |
+| CADRE RESERVE A LA BANQUE NON-RESIDENTE | ... ...................................... .......... Coupures …................. " | de " | ............ ........................................ ........ ........................................ ........................................ ........................................ | Total à recevoir...... | .... ................ ........................... | |
+| CADRE RESERVE A LA BANQUE NON-RESIDENTE | ……………. " | " | ........................................ ........................................ | CACHET DE LA BANQUE | CACHET DE LA BANQUE | |
+| CADRE RESERVE A LA BANQUE NON-RESIDENTE | " ……………. | " | ........................................ | ........................................ | | |
+| CADRE RESERVE A LA BANQUE NON-RESIDENTE | " | " | ........................................ | ........................................ | | |
+| CADRE RESERVE A LA BANQUE NON-RESIDENTE | ……………. " | " | ......................................... | ......................................... | | |
+
+" "
+
+…………….
+
+" "
+
+…………….
+
+" "
+
+…………….
+
+" "
+
+…………….
+
+## CIRCULAIRE AUX INTERMEDIAIRES AGREES N°87-02 DU 9 JANVIER 1987
+
+OBJET : Retrait et versement de billets de banque étrangers par des non-résidents titulaires de comptes étrangers en devises convertibles.
+
+Dans le but de simplifier la procédure de versement et de retrait de billets de banque étrangers par crédit ou débit de comptes étrangers en devises convertibles et réduire le coût de ces opérations pour les titulaires de ces comptes, les circulaires n°85-05 du 11 février 1985 et 85-22 du 20 mai 1985 ont prévu en leur faveur un régime spécial comportant l'application d'une commission unique de 4 ‰ au maximum.
+
+L'objet de la présente circulaire est de reprendre en un texte unique les dispositions des Circulaires précitées tout en apportant des précisions quant aux opérations d'arbitrage et celles relatives à l'approvisionnement et au versement de devises à la Banque Centrale de Tunisie.
+
+## I -RETRAIT ET VERSEMENT DE DEVISES
+
+Les Intermédiaires Agréés peuvent désormais débiter les comptes étrangers en devises pour le montant nominal de la demande de retrait de devises convertibles en billets de banque présentée par le titulaire du compte en percevant uniquement une commission de 4 ‰ .
+
+Par ailleurs, les Intermédiaires Agréés sont autorisés à créditer les comptes étrangers en devises de la valeur nominale des montants des billets de banque étrangers qui leur sont remis et qui sont importés de l'étranger par les titulaires de ces comptes, conformément aux dispositions de l'avis de change N°6 1 , en prélevant la même commission.
+
+Les commissions ainsi prélevées doivent être cédées à la Banque Centrale de Tunisie.
+
+L'attention des Intermédiaires Agréés est attirée sur la nécessité d'individualiser les opérations de l'espèce. A cet effet, ils doivent faire remplir les imprimés dont modèle en Annexe I pour toute demande de retrait ou de versement de billets de banque étrangers cotés par la Banque Centrale de Tunisie par leurs clients.
+
+Pour les opérations comportant un arbitrage entre deux devises différentes l'Intermédiaire Agréé doit mentionner sur ces imprimés le cours appliqué.
+
+1 N.B. : Avis modificatif de l'Avis de change n° 5.
+
+## A - Retrait de devises par la clientèle
+
+Les Intermédiaires Agréés sont autorisés à puiser sur les devises de la caisse courante de change manuel pour satisfaire les demandes présentées par les titulaires des comptes étrangers en devises.
+
+Il demeure entendu que conformément à la réglementation des changes en vigueur, la situation globale des comptes étrangers en devises convertibles ouverts sur les livres des Intermédiaires Agréés au nom des non-résidents dans une devise donnée doit être exactement reflétée par la situation de leurs comptes en devises ouverts auprès de la Banque Centrale de Tunisie dans cette devise.
+
+## B - Cours à appliquer en cas d'arbitrage
+
+Lorsque la demande de retrait ou de versement de billets de banque étrangers porte sur une devise convertible autre que celle du compte qui doit servir à l'opération, l'Intermédiaire Agréé doit d'abord effectuer un arbitrage entre la devise du compte et celle en laquelle sont exprimés les billets de banque pour le montant objet du retrait ou du versement. Le cours à appliquer à ces opérations d'arbitrage est celui établi d'un commun accord entre l'Intermédiaire Agréé et son client sans qu'une position de change en soit dégagée par l'Intermédiaire Agréé.
+
+## C - Retrait de billets de banque étrangers par un bénéficiaire de chèque autre que le titulaire du compte
+
+Le retrait des devises en billets de banque peut être effectué par chèque émis par les titulaires de comptes étrangers en devises en faveur de non-résidents. A cet effet, les Intermédiaires Agréés sont tenus de faire signer les demandes de retrait par les bénéficiaires desdits chèques en précisant les numéros du chèque et de la carte d'identité nationale ou du passeport du bénéficiaire.
+
+## II -APPROVISIONNEMENT ET VERSEMENT DES DEVISES A LA BANQUE CENTRALE DE TUNISIE
+
+La Banque Centrale de Tunisie approvisionnera les Intermédiaires Agréés en billets de banque étrangers, dans le cadre de la présente circulaire moyennant une commission de 2‰. Cet approvisionnement se fera contre un chèque en devises tiré à l'ordre de la Banque Centrale sur le compte en devises de l'Intermédiaire Agréé accompagné d'une demande dont modèle ci-joint en annexe II.
+
+La cession éventuelle à la Banque Centrale de Tunisie de l'excédent d'encaisse des billets de banque étrangers résultant de ces opérations donne lieu au prélèvement d'une commission de 2 ‰. Cette cession se fera à l'aide de bordereau modèle S. 10C à raison d'un bordereau par devise accompagné d'une demande conforme à l'annexe III.
+
+Les Intermédiaires Agréés adresseront à la Banque Centrale de Tunisie, Direction des Opérations Déléguées:
+
+- au plus tard le dixième jour ouvrable suivant la fin de chaque mois, un état mensuel établi conformément à l'annexe IV reprenant tous les mouvements de retrait et de versement de billets de banque étrangers effectués par la clientèle aussi bien à leur siège qu'à leurs agences au cours de la période concernée,
+
+- dans un délai de 10 jours à compter de leur réclamation éventuelle par la Banque Centrale de Tunisie, les originaux des demandes de retrait et de versement établies par la clientèle non-résidente 2 .
+
+La présente Circulaire abroge les Circulaires n°85-05 du 11 février 1985 et n°85-22 du 20 mai 1985 et prend effet à partir du jour de sa notification.
+
+[NOTE] 2 Ainsi modifiée par la circulaire aux I.A. N° 91-14 du 2/8/1991
+
+## ANNEXE I A LA CIRCULAIRE AUX INTERMEDIAIRES AGREES N°87-02 DU 9 JANVIER 1987
+
+## MODELE DE DEMANDE DE RETRAIT(1) OU DE VERSEMENT (1) DE BILLETS DE BANQUE ETRANGERS PAR DES NON-RESIDENTS SUR COMPTES ETRANGERS EN DEVISES
+
+Je soussigné (le client ou le bénéficiaire) (1) ....................................................................…..................................
+
+............................................. déclare retirer(1)
+
+verser(1) (Montant) ..................................
+
+en billets de banque par le débit (1)
+
+pour être porté au crédit (1)
+
+de mon - du (1)
+
+compte étranger N° .................................................................................... … ouvert auprès de (IAT)
+
+............................…..................................................................................................................................................
+
+N° du chèque (2) .................................... …………………………………………………..............
+
+N° de la carte d'identité nationale ou du passeport (2) .....................................................................
+
+………………………………………………………………………………………………………………………
+
+Cours appliqué (3) ………………………………………………………….....................................
+
+VISA ET CACHET DE DATE ET SIGNATURE L'INTERMEDIAIRE AGREE DU DEMANDEUR
+
+(1) Biffer la mention inutile.
+
+(2) A remplir uniquement lorsque le bénéficiaire n'est pas titulaire du compte.
+
+(3) Pour les opérations comportant un arbitrage.
+
+## ANNEXE II A LA CIRCULAIRE AUX INTERMEDIAIRES AGREES N°87-02 DU 09 JANVIER 1987
+
+/\_\_ /\_\_ / RAISON SOCIALE DE L'I.A. CODE
+
+DATE
+
+OBJET : Approvisionnement en devises dans le cadre de la Circulaire aux Intermédiaires Agréés n° du
+
+Messieurs,
+
+En application de la Circulaire susvisée, nous avons l'honneur de vous demander de bien vouloir mettre à notre disposition la somme de (en chiffres, en lettres et la nature de la devise) .......................................................................................................................................................................... ............................................................en billets de banque étrangers.
+
+Nous vous autorisons à débiter notre compte N°4027................................... ouvert sur vos livres de la somme de ................................................................................................................................. ..................................................................................... montant commission de 2‰ vous revenant.
+
+## CACHET ET SIGNATURES AUTORISEES,
+
+Chèque joint N°.....................................................................................................................
+
+Nom de l'agent ......................................................................................................................
+
+N° de la carte d'identité nationale de l'agent .......................................................................
+
+## ANNEXE III A LA CIRCULAIRE AUX INTERMEDIAIRES AGREES N°87-02 DU 09 JANVIER 1987
+
+/\_\_/\_\_ / RAISON SOCIALE DE L'I.A. CODE
+
+DATE
+
+OBJET : Versement des devises dans le cadre de la Circulaire aux Intermédiaires Agréés n° du
+
+Messieurs,
+
+Nous vous remettons, en application de la Circulaire susvisée en billets de banque étrangers la somme de * ..................................................................................................................................................................... ............................................................................................................................................................................ à porter au crédit de notre compte N° 4027......................................... ouvert sur vos livres pour son montant après déduction du montant de la commission de 2‰ vous revenant, soit * …………………………………………. ……………….........................................................................................................................................................
+
+CACHET ET SIGNATURE AUTORISEE,
+
+* En lettres, chiffres et nature des devises.
+
+## ANNEXE IV A LA CIRCULAIRE AUX INTERMEDIAIRES AGREES N°87-02 DU 09 JANVIER 1987
+
+## CODE ET RAISON SOCIALE DE L'INTERMEDIAIRE AGREE
+
+## ETAT RECAPITULATIF DES RETRAITS ET DES VERSEMENTS DE BILLETS DE BANQUE ETRANGERS DANS LE CADRE DE LA CIRCULAIRE N° DU POUR LA PERIODE ALLANT DU /\_/\_/\_/\_/\_/\_/ AU /\_/\_/\_/\_/\_/\_/
+
+| OPERATIONS EFFECTUEES AUPRES DE LA CLIENTELE | OPERATIONS EFFECTUEES AUPRES DE LA CLIENTELE | OPERATIONS EFFECTUEES AUPRES DE LA CLIENTELE | OPERATIONS EFFECTUEES AUPRES DE LA CLIENTELE | OPERATIONS EFFECTUEES AUPRES DE LA CLIENTELE | OPERATIONS EFFECTUEES AUPRES DE LA CLIENTELE | OPERATIONS EFFECTUEES AUPRES DE LA CLIENTELE | OPERATIONS EFFECTUES AUPRES DE LA BCT | OPERATIONS EFFECTUES AUPRES DE LA BCT | OPERATIONS EFFECTUES AUPRES DE LA BCT | OBSERVATIONS |
+|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------|-----------------------------------------|-----------------------------------------|----------------|
+| | DEVISE | DEVISE | RETRAITS | RETRAITS | VERSEMENTS | VERSEMENTS | DATE | RETRAITS (-) OU VERSEMENTS(+) | COMMISSIONS CEDEES | OBSERVATIONS |
+| | CODE | DESIGNATION | NOMBRE | MONTANT | NOMBRE | MONTANT | DATE | RETRAITS (-) OU VERSEMENTS(+) | COMMISSIONS CEDEES | OBSERVATIONS |
+
+CACHET ET SIGNATURE AUTORISEE,
+
+……..………..LE, …………………….
+
+## CIRCULAIRE DE LA BANQUE CENTRALE DE TUNISIE DU 14 JANVIER 1975 (JORT DES 14-17-20 JANVIER 1975)
+
+OBJET : Ouverture de comptes étrangers en dinars convertibles au nom des travailleurs tunisiens à l'étranger.
+
+Pour permettre aux travailleurs tunisiens à l'étranger d'avoir une libre disposition de leurs avoirs en devises qu'ils désirent conserver en Tunisie et les inciter à déposer leurs économies dans les comptes bancaires, la Banque Centrale de Tunisie a décidé d'autoriser à titre général l'ouverture de comptes étrangers en dinars convertibles, tels que définis par les textes visés en référence, à leur nom. Tel est l'objet du présent texte.
+
+Les Intermédiaires Agréés reçoivent à cet effet délégation pour l'ouverture de ces comptes aux personnes physiques de nationalité tunisienne qui justifient d'une situation professionnelle régulière dans un pays étranger par la production d'une attestation datant de moins de 3 mois délivrée par les autorités consulaires tunisiennes dans le pays considéré. Cette attestation doit être conservée par l'Intermédiaire Agréé dans le dossier du titulaire du compte.
+
+Pour l'ouverture de ces comptes aucune condition de durée de séjour à l'étranger n'est exigée. L'Intermédiaire Agréé doit seulement s'assurer périodiquement, une fois par an au moins, que le titulaire du compte n'a pas changé de situation en réintégrant définitivement le territoire national. Il doit exiger à cet effet la présentation d'une pièce justificative adéquate : une carte de séjour ou de travail à l'étranger en cours de validité, un passeport comportant des visas qui indiquent un séjour continu à l'étranger ou à défaut une nouvelle attestation consulaire. Les références des documents présentés doivent être enregistrées de façon précise et complète dans le dossier d'ouverture du compte. Lorsqu'il s'agit d'une attestation consulaire, elle doit être jointe au dossier.
+
+En cas de doute, sur la régularité de la situation de l'intéressé, l'Intermédiaire Agréé doit transformer immédiatement le compte en question en compte intérieur et renvoyer l'intéressé à demander une autorisation spéciale de la Banque Centrale pour le rétablissement éventuel du compte étranger. Dans cette dernière hypothèse la conversion du compte intérieur en compte étranger est automatique si avant l'opération le premier compte n'a reçu aucun crédit. Dans le cas contraire l'Intermédiaire Agréé doit vérifier les crédits antérieurs un à un pour déduire éventuellement les montants intransférables du solde à porter au crédit du nouveau compte étranger.
+
+D'autre part, les titulaires de comptes étrangers en dinars convertibles dans le cadre de la présente circulaire, sont tenus d'aviser l'Intermédiaire Agréé des changements intervenus dans leur situation à l'étranger et demander sans délai la clôture de leur compte, ou sa transformation en compte intérieur s'ils réintègrent définitivement la Tunisie.
+
+L'attention des intéressés est attirée sur le fait que toute fraude ou tentative de fraude dans ce domaine constitue une infraction à la réglementation tunisienne des changes et est réprimée à ce titre.
+
+Avis de Change du Ministre des Finances portant institution de comptes en dinar tunisien au profit des personnes physiques non résidentes de nationalité libyenne (Publié au J.O.R.T. du 28 octobre 2011)
+
+Vu la loi n°76-18 du 21 janvier 1976 portant refonte et codification de la législation des changes et du commerce extérieur régissant les relations entre la Tunisie et les pays étrangers, telle que modifiée par les textes subséquents et notamment la loi n°93-48 du 3 mai 1993,
+
+Vu le décret n°77-608 du 27 juillet 1977 fixant les conditions d'application de la loi n°76-18 susvisée tel que modifié par les textes subséquents et notamment son article 19,
+
+Vu l'avis de change n°5 du Ministre des Finances relatif aux comptes de non-résidents, publié au Journal Officiel de la République Tunisienne du 5 octobre 1982,
+
+Vu l'avis du Gouverneur de la Banque Centrale de Tunisie.
+
+Article 1 er : Les personnes physiques non résidentes de nationalité libyenne peuvent se faire ouvrir librement sur les livres des Intermédiaires Agréés des comptes en dinar tunisien. Les disponibilités de ce compte, libellé «compte en dinar tunisien de non résident libyen», sont utilisées en Tunisie.
+
+Article 2 : La Banque Centrale de Tunisie est chargée de l'exécution du présent avis conformément à la réglementation des changes et du commerce extérieur en vigueur.
+
+## CIRCULAIRE AUX INTERMEDIAIRES AGREES N°2011-21 DU 26 DECEMBRE 2011
+
+Objet : Comptes en dinar tunisien destinés aux personnes physiques non-résidentes de nationalité libyenne.
+
+Article 1 er : Les personnes physiques non résidentes de nationalité libyenne peuvent se faire ouvrir librement sur les livres des Intermédiaires Agréés des comptes en dinar tunisien. Les disponibilités de ce compte, libellé « compte en dinar tunisien de non résident libyen », sont utilisées en Tunisie.
+Article 2: L'ouverture du « compte en dinar tunisien de non résident libyen » a lieu sur production à l'Intermédiaire Agréé de toute pièce, notamment le passeport, justifiant l'identité de la personne concernée, sa qualité de non-résident ainsi que sa nationalité.
+
+L'Intermédiaire Agréé est tenu de conserver une copie des pièces prévues à l'alinéa premier du présent article.
+
+Article 3: «Le compte en dinar tunisien de non résident libyen» peut être librement crédité des sommes provenant :
+- de versements en espèces en dinar effectués par le titulaire du compte ou par toute autre personne physique non résidente de nationalité libyenne,
+- de la contre-valeur en dinar des sommes provenant de comptes en devises convertibles de non résidents,
+- de comptes en dinar convertible de non résidents,
+- d'un compte en dinar ouvert au nom d'une personne non résidente de nationalité libyenne,
+- du produit des placements des sommes logées dans le compte dans les conditions fixées par la Banque Centrale de Tunisie pour les comptes en dinar.
+Article 4: «Le compte en dinar tunisien de non résident libyen» peut être librement débité pour :
+- tout règlement en Tunisie en dinar y compris le crédit d'un «compte en dinar tunisien de non résident libyen» ouvert au nom d'une personne physique non résidente de nationalité libyenne,
+- le placement en dinar conformément à la réglementation en vigueur.
+Article 5 : Toute opération au crédit ou au débit de ce compte autre que celles prévues aux articles 3 et 4 de la présente circulaire est soumise à l'autorisation de la Banque Centrale de Tunisie.
+
+Article 6 : Le solde de ce compte ne peut en aucun cas être rendu débiteur.
+
+Article 7 : Les Intermédiaires Agréés communiqueront chaque mois à la Banque Centrale de Tunisie via le SED au plus tard le 20 du mois suivant le mois concerné les extraits des comptes prévus par la présente circulaire, établis conformément au dessin d'enregistrement figurant à l'annexe I à la circulaire n°86 -33 du 27 octobre 1986 telle que modifiée par les textes subséquents et notamment la circulaire n°92-03 du 12 février 1992 et la circulaire n°98-13 du 1er décembre 1998.
+
+L'identification du « compte en dinar tunisien de non-résident libyen» prévu par la présente circulaire a lieu par la lettre « L » portée au niveau de la rubrique 6 relative au type de compte telle que prévue par le dessin d'enregistrement visé à l'alinéa premier du présent article.
+
+Les caractéristiques des fichiers informatiques sont prévues ci-après :
+
+- Longueur d'enregistrement : 128 caractères
+
+- Nom du fichier : DUNL001R avec suffixe « TXT »
+
+- Fichier : ASCII
+
+Article 8 : La présente circulaire entre en vigueur à partir de la date de sa notification.
+
+A titre transitoire, la Banque Centrale de Tunisie acceptera jusqu'au 20 avril 2012 les extraits des comptes susvisés sur support papier.
+
+Avis de Change du Ministre des Finances portant institution de comptes en devises et en dinar convertibles destinés aux personnes physiques non résidentes de nationalité libyenne
+
+(Publié au J.O.R.T. du 22 novembre 2011)
+
+Vu la loi n°76-18 du 21 janvier 1976 portant refonte et codification de la législation des changes et du commerce extérieur régissant les relations entre la Tunisie et les pays étrangers, telle que modifiée par les textes subséquents et notamment la loi n°93-48 du 3 mai 1993,
+
+Vu le décret n°77-608 du 27 juillet 1977 fixant les conditions d'application de la loi n°76-18 susvisée tel que modifié par les textes subséquents et notamment son article 19,
+
+Vu l'avis de change n°5 du Ministre des Finances relatif aux comptes de non-résidents, publié au Journal Officiel de la République Tunisienne du 5 octobre 1982,
+
+Vu l'avis de change du Ministre des Finances relatif aux conditions de réexportation des billets de banque étrangers importés par les voyageurs nonrésidents, publié au Journal Officiel de la République Tunisienne du 03 février 2006,
+
+Vu l'avis du Gouverneur de la Banque Centrale de Tunisie.
+
+Article 1 er : Les personnes physiques non résidentes de nationalité libyenne peuvent se faire ouvrir librement sur les livres des Intermédiaires Agrées des comptes en devises convertibles intitulés «comptes en devises de non résident libyen » et des comptes en dinar convertible intitulés « comptes en dinar convertible de non résident libyen ».
+
+Article 2 : Les comptes visés à l'article premier du présent avis ne sont crédités que par les sommes provenant de versements de billets de banque étrangers, quel que soit leur montant, que les personnes physiques non résidentes de nationalité libyenne possèdent sans disposer des déclarations en Douane d'importation de ces billets de banque étrangers, établies dans les conditions prévues par l'avis de change publié au Journal Officiel de la République Tunisienne du 03 février 2006 visé cidessus.
+
+Article 3: La Banque Centrale de Tunisie est chargée de l'exécution du présent avis conformément à la réglementation des changes et du commerce extérieur en vigueur.
+
+## CIRCULAIRE AUX INTERMEDIAIRES AGREES N°2012-03 DU 23 JANVIER 2012
+
+- Objet : Comptes en devises et en dinars convertibles destinés aux personnes physiques non résidentes de nationalité libyenne.
+Article 1 er : Les personnes physiques non résidentes de nationalité libyenne peuvent se faire ouvrir librement sur les livres des Intermédiaires Agrées des comptes en devises convertibles intitulés «comptes en devises de non résident libyen » et des comptes en dinar convertible intitulés « comptes en dinar convertible de non résident libyen ».
+Article 2 : L'ouverture du «compte en devise de non résident libyen » et du « compte en dinar convertible de non résident libyen » a lieu sur production à l'Intermédiaire Agréé de toute pièce, notamment le passeport, justifiant l'identité de la personne concernée, sa qualité de non résident ainsi que sa nationalité.
+- L'Intermédiaire Agréé est tenu de conserver une copie des pièces prévues à l'alinéa premier du présent article.
+Article 3 : Le « compte en devise de non résident libyen » peut être librement crédité des sommes provenant :
+- -de versements de billets de banque étrangers, quelque soit leur montant, que les personnes physiques non résidentes de nationalité libyenne possèdent sans disposer des déclarations en Douane d'importation de ces billets de banque étrangers, établies dans les conditions prévues par l'avis de change publié au Journal Officiel de la République Tunisienne du 03 février 2006 et de la circulaire aux Intermédiaires Agréé n°94-13 du 07 septembre 1994 visés ci-dessus,
+- -des intérêts produits par les sommes déposées dans le compte conformément aux conditions fixées par la Banque Centrale de Tunisie pour les comptes en devises des non résidents.
+Article 4 : Le «compte en devise de non résident libyen » peut être librement débité pour :
+- tout règlement en Tunisie en dinar,
+- le placement en devises effectués conformément à la réglementation en vigueur.
+Article 5 : Toute opération au crédit ou au débit du « compte en devise de non résident libyen » autre que celles prévues aux articles 3 et 4 de la présente circulaire est soumise à l'autorisation de la Banque Centrale de Tunisie.
+Article 6 : Le « compte en dinar convertible de non résident libyen » peut être librement crédité des sommes provenant :
+- de versements de la contre valeur en dinar de billets de banque étrangers, quelque soit leur montant, que les personnes physiques non résidentes de nationalité libyenne possèdent sans disposer des déclarations en Douane d'importation de ces billets de banque étrangers, établies dans les conditions prévues par l'avis de change publié au Journal Officiel de la République Tunisienne du 03 février 2006 et de la circulaire aux Intermédiaires Agréé n°94-13 du 07 septembre 1994 visés ci-dessus,
+- des intérêts produits par les sommes déposées dans le compte conformément aux conditions fixées par la Banque Centrale de Tunisie pour les comptes en dinar convertible des non résidents.
+Article 7 : Le « compte en dinar convertible de non résident libyen » peut être librement débité pour :
+- tout règlement en Tunisie en dinar,
+- le placement en dinar convertible conformément à la réglementation en vigueur.
+Article 8: Toute opération au crédit ou au débit du « compte en dinar convertible de non résident libyen » autre que celles prévues aux articles 6 et 7 de la présente circulaire est soumise à l'autorisation de la Banque Centrale de Tunisie.
+Article 9: Les opérations de versement au crédit du « compte en devise de non résident libyen » et du «compte en dinar convertible de non résident libyen » telles que prévues par les articles 3 et 6 de la présente circulaire sont effectuées uniquement par le titulaire du compte ou par toute autre personne physique nonrésidente de nationalité libyenne.
+Article 10 : Le solde du « compte en devise de non résident libyen » et le solde du « compte en dinar convertible de non résident libyen » ne peuvent en aucun cas être rendus débiteurs.
+
+Article 11 : Les Intermédiaires Agréés communiqueront chaque mois à la Banque Centrale de Tunisie via le SED au plus tard le 20 du mois suivant le mois concerné les extraits des comptes prévus par la présente circulaire, établis conformément au dessin d'enregistrement figurant à l'annexe I à la circulaire n°86 -33 du 27 octobre 1986 telle que modifiée par les textes subséquents et notamment la circulaire n°92-03 du 12 février 1992 et la circulaire n°98-13 du 1 er décembre 1998.
+
+L'identification du « compte en devise ou en dinar convertibles de non résident libyen » prévu par la présente circulaire a lieu par la lettre « X » portée au niveau de la rubrique 6 relative au type de compte telle que prévue par le dessin d'enregistrement visé à l'alinéa premier du présent article.
+
+Les caractéristiques des fichiers informatiques sont prévues ci-après :
+
+- Longueur d'enregistrement : 128 caractères
+- Nom du fichier : DUFC001R avec suffixe «TXT »
+- Fichier : ASCII
+
+Article 12 : La présente circulaire entre en vigueur à partir de la date de sa notification.
+
+A titre transitoire, la Banque Centrale de Tunisie acceptera jusqu'au 20 avril 2012 les extraits des comptes susvisés sur support papier.
+
+## 2-7 COMPTES DE RESIDENTS
+
+- -AVIS DE CHANGE DU 21 AVRIL 1987 FIXANT LES CONDITIONS D'OUVERTURE ET DE FONCTIONNEMENT DES COMPTES EN DEVISES ET DES COMPTES EN DINARS CONVERTIBLES DE RESIDENTS.
+- -CIRCULAIRE AUX I.A. N°87-37 DU 24 SEPTEMBRE 1987 RELATIVE AUX COMPTES SPECIAUX EN DEVISES ET EN DINARS CONVERTIBLES.
+- -CIRCULAIRE AUX I.A. N°93-14 DU 15 SEPTEMBRE 1993 RELATIVE AUX CONDITIONS D'OUVERTURE ET DE FONCTIONNEMENT DES COMPTES PROFESSIONNELS EN DEVISES OU EN DINARS CONVERTIBLES.
+- -CIRCULAIRE AUX I.A. N°2001-01 DU 10 JANVIER 2001 RELATIVE AU NEGOCE ET COURTAGE INTERNATIONAUX.
+- -CIRCULAIRE AUX I.A. N°2007-15 DU 26 AVRIL 2007 RELATIVE AUX COMPTES ALLOCATION TOURISTIQUE EN DINARS CONVERTIBLES.
+- -CIRCULAIRE AUX I.A. N°2007-02 DU 2 FEVRIER 2007 RELATIVE A LA GESTION DES COMPTES BANCAIRES DES PERSONNES MORALES RESIDENTES
+- -CIRCULAIRE AUX I.A. N°2007-19 DU 9 JUILLET 2007 RELATIVE AUX COMPTES SPECIAUX « LOI N° 2007-41 » EN DEVISES ET EN DINARS CONVERTIBLES.
+- -CIRCULAIRE AUX I.A. N°2008-08 DU 28 AVRIL 2008 RELATIVE A L'OUVERTURE DES COMPTES A L'ETRANGER.
+- CIRCULAIRE AUX I.A N°2017-04 DU 23 JUIN 2017 RELATIVE AUX COMPTES DE PERSONNES PHYSIQUES - P.P.R - EN DEVISES OU EN DINAR CONVERTIBLES
+- -CIRCULAIRE AUX I.A N°2019-01 DU 30 JANVIER 2019 RELATIVE AUX COMPTES STARTUP EN DEVISES
+
+## AVIS DE CHANGE FIXANT LES CONDITIONS D'OUVERTURE ET DE FONCTIONNEMENT DES COMPTES EN DEVISES ET DES COMPTES EN DINARS CONVERTIBLES DE RESIDENTS
+
+(Publié au JORT du 21 avril 1987)
+
+Le présent avis pris dans le cadre de l'article 25 du décret n°77-608 du 27 juillet 1977, fixant les conditions d'application de la loi n°76-18 du 21 janvier 1976 portant refonte et codification de la législation des changes et du commerce extérieur, tel que modifié par le décret n°87-54 du 17 janvier 1987 et le décret n°87648 du 18 avril 1987 réglemente l'ouverture et le fonctionnement des comptes suivants:
+
+- comptes spéciaux en devises et en dinars convertibles au nom de personnes résidentes pour leurs avoirs acquis régulièrement à l'étranger et dont la cession à la Banque Centrale de Tunisie n'est pas prescrite ;
+- les comptes professionnels en devises et en dinars convertibles au nom de personnes résidentes pour les besoins de leur activité.
+
+D'autre part, le présent texte étend la possibilité d'ouverture des comptes spéciaux susvisés au profit des personnes physiques résidentes de nationalité étrangère. En effet ces dernières, libres au regard de la législation tunisienne des changes de toute obligation de déclaration au titre de leurs avoirs constitués à l'étranger sans aucun rapport avec leur situation en Tunisie seraient ainsi incitées à conserver en Tunisie leurs disponibilités provenant des biens dont il s'agit.
+
+## CHAPITRE PREMIER COMPTES SPECIAUX EN DEVISES ET COMPTES SPECIAUX EN DINARS CONVERTIBLES
+
+## I - CONDITIONS D'OUVERTURE
+
+Les personnes physiques de nationalité tunisienne ou étrangère et les personnes morales étrangères pour leurs établissements en Tunisie ont la possibilité de se faire ouvrir auprès d'Intermédiaires Agréés des comptes spéciaux en devises convertibles ou en dinars convertibles. L'ouverture de ces comptes est subordonnée à la seule condition de la justification de l'accomplissement auprès de la Banque Centrale de Tunisie de la déclaration prévue par les articles 16 et 18 du code des changes et du commerce extérieur et de l'article 16 de la loi n° 86-83 du 1er septembre 1986, portant loi de finances rectificative pour l'année 1986, sauf pour ce qui concerne les personnes physiques de nationalité étrangère non soumises à cette obligation.
+
+## II - REGLES DE FONCTIONNEMENT
+
+## SECTION 1 COMPTES SPECIAUX EN "DEVISES CONVERTIBLES"
+
+## A- Opérations au crédit
+
+- 1 °) Les comptes spéciaux en "devises convertibles" peuvent être crédités sans autorisation préalable :
+- -des versements de devises convertibles provenant des revenus ou produits des avoirs à l'étranger ainsi que des avoirs en devises à l'étranger déclarés à la Banque Centrale de Tunisie conformément aux articles 16 et 18 du code des changes et du commerce extérieur et l'article 16 de la loi n°86-83 du 1er septembre 1986 portant loi de finances rectificative pour l'année 1986.
+
+Le versement des billets de banque étrangers est effectué au vu d'une déclaration d'importation visée par la douane.
+
+- des sommes provenant de la clôture d'un compte étranger en "devises" ou en dinars convertibles" du titulaire du compte.
+- des sommes provenant d'un autre compte spécial en "devises" ou en "dinars convertibles".
+- des intérêts produits par les sommes déposées dans le compte si elles sont employées par l'Intermédiaire Agréé à un taux rémunérateur, dans les conditions fixées par circulaire de la Banque Centrale.
+- 2 °) Toute autre inscription au crédit du compte est soumise à l'autorisation de la Banque Centrale de Tunisie.
+
+## B- Opérations au débit
+
+- 1 °) Les comptes spéciaux en "devises convertibles" peuvent être débités sans autorisation préalable :
+- de la cession desdites devises à la Banque Centrale de Tunisie.
+- -pour tout règlement à l'étranger.
+- -pour la remise de toutes devises étrangères au titulaire du compte, pour effectuer un voyage à l'étranger.
+- -pour le crédit d'un autre compte spécial en devises ou en dinars convertibles.
+- 2 °) Toute autre opération effectuée au profit d'un résident est soumise à l'autorisation de la Banque Centrale de Tunisie étant entendu qu'en aucun cas le compte ne peut être rendu débiteur.
+
+## SECTION 2 COMPTES SPECIAUX EN "DINARS CONVERTIBLES"
+
+## A- Opération au crédit
+
+- 1°) Les comptes spéciaux en "dinars convertibles" peuvent être crédités sans autorisation préalable :
+- du produit en dinars de la cession à la Banque Centrale de Tunisie de devises convertibles provenant des revenus ou produits des avoirs à l'étranger ainsi que des avoirs en devises à l'étranger déclarés à la Banque Centrale de Tunisie conformément aux articles 16 et 18 du code des changes et du commerce extérieur et de l'article 16 de la loi n° 86-83 du 1er septembre 1986 portant loi de finances rectificative pour l'année 1986.
+
+La cession des billets de banque étrangers est effectuée au vu d'une déclaration d'importation visée par la douane.
+
+- des sommes provenant de la clôture d'un compte étranger en devises ou en dinars convertibles du titulaire du compte.
+- -des sommes provenant d'un autre compte spécial en devises ou en dinars convertibles.
+- -des intérêts produits par les sommes déposées dans le compte si elles sont employées par l'Intermédiaire Agréé à un taux rémunérateur, dans les conditions fixées par circulaire de la Banque Centrale.
+- 2°) Toute autre inscription au crédit du compte est soumise à l'autorisation de la Banque Centrale de Tunisie.
+
+## B- Opération au débit
+
+- 1 ° ) Les comptes spéciaux en "dinars convertibles" peuvent être débités sans autorisation préalable :
+- -pour tout règlement en Tunisie.
+- -en vue de l'achat de toutes devises étrangères à la Banque Centrale de Tunisie pour :
+* effectuer tout règlement à l'étranger ;
+* être remises au titulaire du compte pour effectuer un voyage à l'étranger ;
+
+-pour le crédit d'un autre compte spécial en devises ou en dinars convertibles.
+
+* Voir circulaire de la BCT aux I.A. n°93-14 du 15 septembre 1993
+
+- 2°) Toute opération de transfert ou de remise de devises effectuée au profit d'un résident, est soumise à l'autorisation de la Banque Centrale de Tunisie étant entendu qu'il ne peut être en aucun cas rendu débiteur.
+
+## CHAPITRE II COMPTES PROFESSIONNELS EN DEVISES OU COMPTES PROFESSIONNELS EN DINARS CONVERTIBLES*
+
+## CIRCULAIRE AUX INTERMEDIAIRES AGREES N°87-37 DU 24 SEPTEMBRE 1987 
+
+OBJET : Comptes spéciaux en devises et en dinars convertibles.
+
+L'Article 25 nouveau du décret n°77-608 du 27 juillet 1977 fixant les modalités d'application du code des changes dispense de l'obligation de cession les devises provenant des revenus ou produits des avoirs à l'étranger et des avoirs en devises à l'étranger déclarés à la Banque Centrale de Tunisie conformément aux articles 16 et 18 du code des changes et à l'article 16 de la loi n°86-83 du 1 er septembre 1986 portant loi de finances rectificative pour l'année 1986.
+
+Ces devises peuvent être logées dans des comptes spéciaux en devises ou en dinars convertibles et peuvent être librement utilisées en Tunisie et à l'étranger.
+
+La présente Circulaire précise les catégories de bénéficiaires de ces comptes et les modalités de déclaration à la Banque Centrale de Tunisie des avoirs à l'étranger et apporte certains éclaircissements sur les règles d'ouverture et de fonctionnement de ces comptes tels que règlementés par l'avis de change publié au JORT du 21 avril 1987.
+
+## I - BENEFICIAIRES
+
+Peuvent bénéficier de l'ouverture des comptes spéciaux en devises et en dinars convertibles :
+
+a) - Les personnes physiques de nationalité tunisienne transférant leur résidence habituelle de l'Etranger en Tunisie, les personnes physiques ou morales tunisiennes bénéficiant de l'amnistie de change prévue par la loi n°86-83 du 1 er septembre 1986 ainsi que toute autre personne physique ou morale de nationalité tunisienne pour ses avoirs acquis régulièrement à l'étranger ;
+b) - Les personnes physiques de nationalité étrangère résidentes en Tunisie ;
+c) - Les personnes morales étrangères pour leurs établissements résidents en Tunisie.
+
+## II - CONDITIONS D'OUVERTURE
+
+ Les dispositions de cette circulaire ne sont plus applicables aux personnes physiques et ce, en vertu de la circulaire N°2017-04 du 23 juin 2017 qui a transformé les « comptes spéciaux en devises
+
+## A) Comptes ouverts au nom de personnes physiques ou morales tunisiennes et de personnes morales étrangères
+
+L'ouverture des comptes spéciaux en devises ou en dinars convertibles par les I.A.T. au nom de ces personnes est soumise à la déclaration d'avoirs visée par les articles 16 et 18 du code des changes.
+
+Cette déclaration doit être faite dans un délai ne dépassant pas :
+
+- 6 mois à compter de la date d'acquisition d'avoirs à l'étranger pour les personnes physiques ou morales tunisiennes résidentes et les personnes morales étrangères pour leurs établissements résidents en Tunisie ;
+- deux ans à compter du jour de changement de résidence lorsqu'il s'agit de personnes physiques de nationalité tunisienne ayant transféré leur résidence de l'étranger en Tunisie ;
+- 6 mois à partir de la date de création par les personnes morales étrangères d'un nouvel établissement en Tunisie.
+
+A titre exceptionnel et en application des articles 15 et 16 de la loi n°86-83 du 1er septembre 1986 amnistiant les infractions de non déclaration et de non rapatriement des avoirs acquis à l'étranger en conformité à la législation et à la réglementation des changes, les déclarations d'avoirs seront acceptées jusqu'au 31 décembre 1987 quelle que soit la date d'acquisition de ces avoirs, du changement de résidence du déclarant et quelle que soit la date de création du nouvel établissement en Tunisie.
+
+Le dépôt de la déclaration qui doit indiquer la nature des avoirs, le pays de situation et leur valeur estimative peut se faire sur papier libre :
+
+- soit directement auprès du siège de la Banque Centrale de Tunisie ou de l'un de ses Comptoirs,
+- soit auprès d'un Intermédiaire Agréé.
+
+Dans le cas où la déclaration est déposée auprès de la Banque Centrale de Tunisie, l'ouverture du compte peut se faire au vu d'une attestation ou d'une décharge délivrée sur une copie de la déclaration.
+
+L'ouverture d'un compte spécial doit donner lieu à information de la Banque Centrale de Tunisie et à communication à celle-ci, sous pli confidentiel, de la déclaration d'avoirs si l'Intermédiaire Agréé en est le dépositaire.
+
+## B) Comptes ouverts au nom des personnes physiques résidentes de nationalité étrangère
+
+Toute personne physique de nationalité étrangère résidant en Tunisie peut se faire ouvrir sans autorisation préalable un compte spécial en devises ou en dinars convertibles.
+
+L'ouverture du compte se fait au vu de la carte de séjour délivrée par les autorités tunisiennes et dont une photocopie doit accompagner la demande d'ouverture.
+
+Il est précisé que ces personnes ne sont pas astreintes à l'obligation de déclaration d'avoirs prévue par les articles 16 et 18 du code des changes.
+
+## III - CONDITIONS DE FONCTIONNEMENT
+
+## A) Comptes spéciaux en "devises convertibles"
+
+## 1°) - Opérations au crédit
+
+a) Les comptes spéciaux en "devises convertibles" peuvent être crédités sans autorisation préalable :
+- des versements de devises convertibles provenant des revenus ou produits des avoirs à l'étranger ainsi que des avoirs en devises à l'étranger déclarés à la Banque Centrale de Tunisie conformément aux articles 16 et 18 du code des changes et du commerce extérieur et l'Article 16de la loi N° 86-83 du 1 er septembre 1986 portant loi de finances rectificative pour l'année 1986.
+
+Le versement des billets de banque étrangers est effectué au vu d'une déclaration d'importation visée par la douane :
+
+- des sommes provenant de la clôture d'un compte étranger en "devises" ou en "dinars convertibles" du titulaire du compte,
+- des sommes provenant d'un autre compte spécial en "devises" ou en "dinars convertibles",
+- des intérêts produits par les sommes déposées dans le compte, calculés dans les conditions fixées pour les comptes étrangers en devises convertibles,
+b) toute autre inscription au crédit du compte est soumise à l'autorisation de la Banque Centrale de Tunisie.
+
+## 2°) Opérations au débit
+
+a) Les comptes spéciaux en "devises convertibles" peuvent être débités sans autorisation préalable pour :
+- la cession desdites devises à la Banque Centrale de Tunisie
+- la remise de toutes devises étrangères au titulaire du compte, pour effectuer un voyage à l'étranger,
+- le crédit d'un autre compte spécial en devises ou en dinars convertibles,
+- tout règlement à l'étranger notamment pour :
+- toute acquisition de biens corporels mobiliers ou immobiliers situés à l'étranger, de droits de propriété à l'étranger, et de créances sur l'étranger ou libellées en monnaie étrangère, représentées ou non par des titres,
+- tout acte de gestion affectant les avoirs régulièrement détenus à l'étranger.
+
+Les règlements à l'étranger ne dispensent pas des formalités de commerce extérieur s'il y a lieu.
+
+b) toute opération effectuée au profit d'un résident est soumise à l'autorisation de la Banque Centrale de Tunisie. Toutefois et par délégation, les Intermédiaires Agréés sont autorisés à délivrer toutes devises étrangères au conjoint du titulaire du compte et à ses ascendants et descendants au premier degré pour effectuer un voyage à l'étranger.
+
+Il est entendu qu'en aucun cas le compte ne peut être rendu débiteur.
+
+## B) Comptes spéciaux en "dinars convertibles"
+
+## 1°) Opérations au crédit
+
+a) Les comptes spéciaux en "dinars convertibles" peuvent être crédités sans autorisation préalable :
+- du produit en dinars de la cession à la Banque Centrale de Tunisie de devises convertibles provenant des revenus ou produits des avoirs à l'étranger ainsi que des avoirs en devises à l'étranger déclarés à la Banque Centrale de Tunisie conformément aux articles 16 et 18 du code des changes et du commerce extérieur et à l'Article 16de la loi n°86-83 du 1er septembre 1986 portant loi de finances rectificative pour l'année 1986.
+
+La cession des billets de banque étrangers est effectuée au vu d'une déclaration d'importation visée par la douane.
+
+- des sommes provenant de la clôture d'un compte étranger en devises ou en dinars convertibles du titulaire du compte,
+- des sommes provenant d'un autre compte spécial en devises ou en dinars convertibles,
+- des intérêts produits par les sommes déposées dans le compte, calculés dans les conditions fixées pour les comptes étrangers en dinars convertibles,
+
+b) toute autre inscription au crédit du compte est soumise à l'autorisation de la Banque Centrale de Tunisie.
+
+## 2°) - Opérations au débit
+
+a) les comptes spéciaux en "dinars convertibles" peuvent être débités sans autorisation préalable :
+- pour tout règlement en Tunisie,
+- en vue de l'achat de toutes devises étrangères à la Banque Centrale de Tunisie pour :
+* tout règlement à l'étranger notamment pour :
+- toute acquisition de biens corporels mobiliers ou immobiliers situés à l'étranger, de droits de propriété à l'étranger, et de créances sur l'étranger ou libellées en monnaie étrangère, représentées ou non par des titres,
+- tout acte de gestion affectant les avoirs régulièrement détenus à l'étranger.
+* être remises au titulaire du compte pour effectuer un voyage à l'étranger.
+- pour le crédit d'un autre compte spécial en devises ou en dinars convertibles.
+
+Les règlements à l'étranger ne dispensent pas des formalités de commerce extérieur s'il y a lieu.
+
+b) toute opération de transfert ou de remise de devises effectuée au profit d'un résident, est soumise à l'autorisation de la Banque Centrale de Tunisie. Toutefois et par délégation, les Intermédiaires Agréés sont autorisés à délivrer toutes devises étrangères au conjoint du titulaire du compte et à ses ascendants et descendants au premier degré pour effectuer un voyage à l'étranger.
+
+Il est entendu qu'en aucun cas le compte ne peut être rendu débiteur.
+
+## IV - DISPOSITIONS DIVERSES
+
+Il est rappelé que la dérogation à la règle de cession obligatoire des devises à la Banque Centrale de Tunisie ne dispense pas :
+
+- les bénéficiaires de ces comptes de l'obligation de rapatriement prévue par la réglementation en vigueur,
+- -les Intermédiaires Agréés des obligations découlant de la réglementation relative aux modalités d'exécution des règlements entre la Tunisie et l'étranger.
+
+Il demeure entendu que les comptes spéciaux en devises ou en dinars convertibles ne peuvent être crédités des devises rapatriées dans le cadre d'une obligation édictée par la réglementation du commerce extérieur et des changes en matière d'exportation de biens et de services et d'une façon générale des devises provenant d'activités exercées en Tunisie et dont la cession à la Banque Centrale de Tunisie est obligatoire.
+
+## CIRCULAIRE AUX INTERMEDIAIRES AGREES N°93-14 DU 15 SEPTEMBRE 1993
+
+OBJET : Conditions d'ouverture et de fonctionnement des comptes professionnels en devises ou en dinars convertibles.
+
+La présente circulaire a pour objet de fixer les conditions d'ouverture et de fonctionnement des comptes professionnels en devises ou en dinars convertibles qui peuvent être ouverts aux personnes physiques et morales résidentes.
+
+## SECTION 1 LES COMPTES PROFESSIONNELS EN DEVISES
+
+## I - CONDITIONS D'OUVERTURE
+
+Toute personne physique résidente et toute personne morale tunisienne ou étrangère pour ses établissements en Tunisie ayant des ressources en devises peuvent pour les besoins de leur activité se faire ouvrir librement auprès d'un Intermédiaire Agréé des comptes professionnels en devises tenus en une monnaie convertible cotée par la Banque Centrale de Tunisie. Ces comptes permettent essentiellement à leurs titulaires de se prémunir contre les risques de change.
+
+## II - CONDITIONS DE FONCTIONNEMENT
+
+## A) Opérations au crédit
+
+1°) Ces comptes peuvent être crédités sans autorisation préalable :
+
+a) 1 - de 100% des devises provenant des exportations de l'entreprise résidente titulaire du compte ainsi que des emprunts en devises contractés par ladite entreprise conformément à la réglementation des changes en vigueur. Le crédit du compte ne peut intervenir qu'après nivellement et lors de la cession sur le marché des changes de la part cessible des recettes d'exportation et du montant des emprunts susvisés ;
+
+Le versement de billets de banque étrangers est effectué au vu d'une copie de la déclaration d'importation de devises accompagnée de l'original. Après apposition de son visa et mention du montant réglé en devises sur les deux documents, l'Intermédiaire Agréé domiciliataire restitue l'original à son titulaire. L'opération d'inscription au crédit du compte doit avoir lieu au vu des documents appropriés (contrats, factures définitives, factures pro forma, notes d'honoraires 2 .
+
+b) - des intérêts produits par les sommes logées dans ces comptes dans les conditions fixées par la Banque Centrale de Tunisie ;
+
+c) - des virements d'un autre compte professionnel du même titulaire, tenu dans la même devise que le compte professionnel à créditer;
+d) -des virements d'un autre compte professionnel du même titulaire tenu en une autre devise. Le crédit du compte doit intervenir au moment de l'utilisation des disponibilités provenant du compte débité pour le règlement des opérations prévues à l'alinéa a) du paragraphe B ci-dessous.
+3. 2°) Toute autre inscription au crédit du compte est soumise à l'autorisation de la Banque Centrale de Tunisie. Il demeure par ailleurs entendu qu'aucune inscription au crédit du compte ne peut être réalisée après cession des devises à la Banque Centrale de Tunisie.
+
+## B) Opérations au débit
+
+- 1°) Les comptes professionnels en devises peuvent être débités sans autorisation préalable pour:
+a) - le règlement partiel ou total, selon les conditions et modalités prévues par la réglementation des changes et du commerce extérieur en vigueur, des opérations courantes afférentes à l'activité au titre de laquelle le compte à débiter est ouvert ainsi que le règlement de toute autre opération autorisée à titre particulier ou général ;
+b) - des opérations de placement conformément à la réglementation des changes et du commerce extérieur en vigueur;
+c) - Le crédit d'un autre compte professionnel du même titulaire tenu dans la même devise que le compte professionnel à débiter ;
+d) - le crédit d'un autre compte professionnel tenu en une autre devise du même titulaire. Le débit du compte doit intervenir au moment de l'utilisation des disponibilités du compte crédité pour le règlement des opérations prévues à l'alinéa a) ci-dessus.
+e) - la cession des devises à la Banque Centrale de Tunisie.
+- 2°) Toute autre opération au débit notamment pour créditer le compte professionnel d'un autre titulaire, est soumise à l'autorisation préalable de la Banque Centrale de Tunisie étant entendu que le compte ne peut être en aucun cas rendu débiteur.
+
+## C) Utilisation en priorité des disponibilités des comptes professionnels en devises 3
+
+Les titulaires des comptes professionnels en devises devront pour le règlement de leurs dépenses en devises, utiliser en priorité et sous leur responsabilité, les disponibilités de leurs comptes et ne doivent y maintenir que les montants dont ils ont effectivement besoin. Tout excédent doit faire l'objet de cession contre dinar sur le marché des changes.
+
+## D) Recours au marché des changes en cas de disponibilités en comptes 4
+
+L'Intermédiaire Agréé ne doit procéder à la vente de devises au comptant ou dans le cadre d'une opération de couverture en faveur d'un opérateur disposant de fonds dans son/ses compte(s) professionnels en devises ouvert(s) sur ses livres que jusqu'à concurrence du besoin de règlement non couvert par lesdits fonds.
+
+Etant entendu que les fonds en devises faisant l'objet de placement sont considérés comme des avoirs disponibles en comptes.
+
+A l'occasion de chaque vente de devises, l'Intermédiaire Agréé est tenu d'exiger de l'opérateur une déclaration sur l'honneur conformément au modèle prévu par l'annexe n°1 à la présente circulaire, certifiant qu'il ne dispose pas de fonds dans ses comptes professionnels en devises ouverts sur les livres d'autres Intermédiaires Agréés permettant l'exécution de l'opération en objet.
+
+## SECTION 2 LES COMPTES PROFESSIONNELS EN DINARS CONVERTIBLES
+
+## I - CONDITIONS D'OUVERTURE
+
+Toute personne physique résidente et toute personne morale étrangère pour ses établissements en Tunisie ayant des tunisienne ou recettes en devises ou en dinars convertibles peuvent être autorisées par la Banque Centrale de Tunisie à se faire ouvrir des comptes professionnels en dinars convertibles.
+
+[NOTE] 3 Ainsi ajouté par circulaire aux I.A n°2012-18 du 04.10.2012.
+
+[NOTE] 4 Ainsi ajouté par circulaire aux I.A n°2013-13 du 21.10.2013.
+
+[NOTE] 4 Ainsi ajouté par circulaire aux I.A n°2013-13 du 21.10.2013.
+
+## II - CONDITIONS DE FONCTIONNEMENT
+
+Le compte professionnel en dinars convertibles crédité à partir des ressources en devises ou en dinars convertibles de son titulaire fonctionnera selon les conditions fixées dans l'autorisation d'ouverture.
+
+## SECTION 3 COMMUNICATION A LA BANQUE CENTRALE DE TUNISIE
+
+Les Intermédiaires Agréés adresseront à la Banque Centrale de Tunisie au plus tard un mois après la fin de chaque trimestre un état des comptes professionnels en devises ouverts sur leurs livres au cours dudit trimestre avec indication du nom ou de la raison sociale de leurs titulaires, du numéro du code en douane et, lorsqu'il s'agit d'une personne physique, du numéro de sa carte d'identité nationale et du code de la devise.
+
+Les Intermédiaires Agréés adresseront à la Banque Centrale de Tunisie au terme de chaque mois et au plus tard le 15 du mois suivant, via le SED (nom du fichier : ETATSCPD, format du fichier EXCEL.xls) :
+
+-un état des soldes des «comptes professionnels en devises» ouverts sur leurs livres établi conformément à l'annexe II à la présente,
+
+- un état des ventes de devises contre dinar établi conformément à l'annexe III à la présente,
+
+-un état des encours de placement établi conformément à l'annexe IV à la présente. 4
+
+Sont abrogées toutes dispositions contraires ou faisant double emploi avec la présente circulaire qui entre en vigueur à compter de sa notification.
+
+## ANNEXE I A LA CIRCULAIRE AUX INTERMEDIAIRES AGREES
+
+## N°93-14 DU 15 SEPTEMBRE 1993 4
+
+## DECLARATION SUR L'HONNEUR
+
+Je soussigné ……………………………………………………………………….….………... titulaire de la carte d'identité nationale n° …..………………... du ……………...…… agissant en qualité de …………………….……………………………………………………… de la société …………..……………………………………………………………………….. matricule fiscale n° ……………………………………………………………………….…… déclare par la présente que la société ne dispose pas de disponibilités dans ses comptes professionnels en devises ouverts sur les livres des Intermédiaires Agréés permettant l'exécution de la présente opération.
+
+Date, cachet et signature
+
+Date, cachet et signature de l'Intermédiaire Agréé
+
+[NOTE] 4 Ainsi ajouté par circulaire aux I.A n°2013-13 du 21.10.2013.
+
+## ANNEXE II A LA CIRCULAIRE AUX INTERMEDIAIRES AGREES N°93-14 DU 15 SEPTEMBRE 1993 4
+
+## DECLARATION MENSUELLE DES SOLDES DES COMPTES PROFESSIONNELS EN DEVISES
+
+## Mois : 1 à 12 Année : N I.A :
+
+code I.A
+
+| | | | | Solde du compte en | Solde du compte en | Solde du compte en | Solde du compte en | Solde du compte en | Solde du compte en | Solde du compte en | Solde du compte en |
+|-------------------------------------|------------------|---------------|-----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
+| Dénomination du titulaire du compte | Matricule fiscal | RIB du compte | Code devise du compte | Journée 1 | Journée 2 | Journée 3 | début de Journée 4 | journée Journée 5 | Journée 6 | Journée n | |
+
+## NB / n : Nombre de journées ouvrables
+
+[NOTE] 4 Ainsi ajouté par circulaire aux I.A n°2013-13 du 21.10.2013.
+
+Mois : 1 à 12
+
+Année : N
+
+I.A : code I.A
+
+| | | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur | Contre valeur en dinar des montants des ventes de devises effectuées en faveur de l'opérateur |
+|-----------------------------|------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| Dénomination de l'opérateur | Matricule fiscal | Journée 1 | Journée 2 | Journée 3 | Journée 4 | Journée 5 | Journée 6 | Journée n | | | |
+
+NB / n : Nombre de journées ouvrables
+
+Toutes les ventes de la journée n y compris ceux des opérateurs non titulaire de comptes professionnels ouverts sur les livres de l'I.A déclarant
+
+[NOTE] 4 Ainsi ajouté par circulaire aux I.A n°2013-13 du 21.10.2013.
+
+## ANNEXE III A LA CIRCULAIRE AUX INTERMEDIAIRES AGREES N°93-14 DU 15 SEPTEMBRE 1993 4
+
+## DECLARATION MENSUELLE DES VENTES DE DEVISES CONTRE DINARS
+
+Mois : 1 à 12 Année : N
+
+I.A : code I.A
+
+| | | | Encours des placements en devises de l'opérateur | Encours des placements en devises de l'opérateur | Encours des placements en devises de l'opérateur | Encours des placements en devises de l'opérateur | Encours des placements en devises de l'opérateur | Encours des placements en devises de l'opérateur | Encours des placements en devises de l'opérateur | Encours des placements en devises de l'opérateur | Encours des placements en devises de l'opérateur |
+|-----------------------------|------------------|--------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|----------------------------------------------------|
+| Dénomination de l'opérateur | Matricule fiscal | Code devises | Journée 1 | Journée 2 | Journée 3 | Journée 4 | Journée 5 | Journée 6 | Journée n | | |
+
+NB / n : Nombre de journées ouvrables
+
+Tous les encours des placements effectués auprès de l'I.A déclarant, arrêtés à la journée n y compris ceux des opérateurs non titulaires de comptes sur les livres de cet I.A
+
+Ainsi ajouté par circulaire aux I.A n°2013-13 du 21.10.2013.
+
+## ANNEXE IV A LA CIRCULAIRE AUX INTERMEDIAIRES AGREES N°93-14 DU 15 SEPTEMBRE 1993 4
+
+## DECLARATION MENSUELLE DES ENCOURS DE PLACEMENT DE L'OPERATEUR
+
+## CIRCULAIRE AUX INTERMEDIAIRES AGREES N°2001-01 DU 10 JANVIER 2001
+
+OBJET : Négoce et courtage internationaux.
+
+## PARAGRAPHE PREMIER NEGOCE INTERNATIONAL
+
+Article 1 er : L'activité de négoce international consiste en l'achat et la revente de marchandises à l'étranger.
+
+Article 2 : Dans le cadre de leurs activités de négoce international, les opérateurs résidents doivent recourir, pour le règlement de leurs achats de marchandises à l'étranger, soit à l'emprunt de devises auprès de non-résidents, soit à l'emprunt sur le marché monétaire en devises, soit à la compensation entre leurs recettes et leurs dépenses réalisées exclusivement dans le cadre de leurs activités de négoce international.
+
+## A - FINANCEMENT PAR EMPRUNT DE DEVISES AUPRES DE NON RESIDENTS
+
+Article 3: Les opérateurs résidents peuvent contracter pour les besoins de financement de leurs opérations de négoce international, des emprunts en devises auprès de non résidents dans les conditions et selon les modalités prévues par la circulaire aux Intermédiaires Agréés n°93-16 du 7 octobre 1993 relative aux emprunts extérieurs.
+
+Article 4 : Le remboursement de ces emprunts doit être effectué :
+
+- soit par débit de leurs « Comptes - Négoce International » fonctionnant dans les conditions arrêtées au paragraphe 3 ci-dessous.
+- -soit par rachat de devises provenant d'opérations de négoce international cédées antérieurement sur le marché des changes. Le rachat ne peut être effectué que contre remise de l'original de tout document prouvant la cession des devises (avis de crédit, bordereau de cession…) et portant la mention « devises cédées dans le cadre de l'activité de négoce international ».
+
+Il est entendu que le rachat ne peut porter que sur le montant de la contre-valeur en dinars des devises cédées et doit se faire au plus tard une année après la date de la cession.
+
+## B - FINANCEMENT PAR EMPRUNT SUR LE MARCHE MONETAIRE EN DEVISES
+
+Article 5 : Les opérations de négoce international peuvent être librement financées au moyen d'emprunts sur le marché monétaire en devises contractés conformément aux dispositions de la circulaire n°92-13 du 10 janvier 1992 relative au marché monétaire en devises, aux placements et emplois des devises non cessibles et au refinancement en devises auprès de la Banque Centrale de Tunisie.
+
+Le contrat de prêt est conclu au vu d'un contrat d'achat de marchandises situées à l'étranger.
+
+Le remboursement de ce prêt doit être effectué conformément à l'article 4 ci-dessus.
+
+## C - REGLEMENT PAR AFFECTATION DU PRODUIT DES VENTES DES MARCHANDISES AU REGLEMENT DES ACQUISITIONS
+
+Article 6 : Lorsque l'opération de négoce international commence par une vente de marchandises dont le règlement intervient avant celui de l'opération d'achat, l'opérateur résident est autorisé à affecter le produit de cette vente au règlement de l'achat à réaliser ultérieurement. A cet effet, ou bien, l'opérateur concerné règle directement le fournisseur non résident, ou bien n'ayant pas encore conclu le contrat d'achat, il rapatrie les recettes en devises et les verse à titre de couverture de l'achat projeté dans un « Compte Négoce International ».
+
+## PARAGRAPHE 2 LE COURTAGE INTERNATIONAL
+
+Article 7: Le courtage international consiste à mettre en rapport un acheteur et un vendeur non résidents.
+
+Article 8 : Les opérateurs résidents sont tenus de rapatrier leurs recettes en devises, au titre des opérations de courtage international, déduction faite des dépenses auxquelles ils ont eu à faire face.
+Article 9 : Les devises ainsi rapatriées peuvent être logées dans les « Comptes Négoce International ».
+
+## PARAGRAPHE 3 LES « COMPTES NEGOCE INTERNATIONAL »
+
+Article 10 : Les opérateurs résidents sont autorisés à se faire ouvrir auprès des intermédiaires agréés des comptes en devises appelés « Comptes Négoce International » destinés à couvrir les frais et le règlement de leurs opérations de négoce international ainsi que de courtage international. Il peut être ouvert autant de comptes que de devises.
+
+Article 11 : Les « Comptes Négoce International » peuvent être librement alimentés :
+
+a) du produit des ventes de marchandises à l'étranger réalisées conformément à l'Article 6de la présente circulaire.
+
+b) des bénéfices et/ou commissions provenant des opérations de négoce international ou de courtage international.
+
+c) du montant des emprunts en devises contractés dans les conditions fixées ci-dessus.
+
+d) des devises rachetées sur le marché des changes conformément aux dispositions de l'Article 4ci-dessus.
+
+e) des intérêts produits par les sommes déposées dans le compte calculés dans les conditions fixées par la B.C.T. pour les comptes en devises de résidents.
+
+Article 12 : Les « Comptes Négoce International » peuvent être débités sans autorisation préalable pour :
+
+a) le règlement des achats dans le cadre des opérations de négoce international et des dépenses y afférentes ;
+
+b) le règlement des dépenses nécessitées par des opérations de courtage international ;
+
+c) le remboursement des emprunts en devises contractés dans les conditions fixées ci-dessus ;
+
+d) le règlement de toute opération courante engagée par le titulaire du compte conformément à la réglementation des changes et du commerce extérieur en vigueur ainsi que de toute autre opération autorisée à titre général ou particulier.
+
+e) la cession des devises sur le marché des changes.
+
+Article 13 : Toute opération au débit ou au crédit de ces comptes ne peut être réalisée que sur présentation de tout document attestant de la nature de l'opération à effectuer.
+
+Article 14 : Les « Comptes Négoce International » ne peuvent en aucun cas être débiteurs alors même que leur titulaire serait sur le point de procéder à des encaissements permettant de solder le découvert.
+
+## PARAGRAPHE 4 DISPOSITIONS DIVERSES
+
+Article 15 : Les opérateurs résidents sont tenus de rapatrier les bénéfices et revenus provenant de leurs opérations de négoce international et de courtage international dans un délai de 10 jours à compter de la date d'exigibilité du paiement.
+
+Article 161 : Les intermédiaires agréés doivent communiquer à la Banque Centrale de Tunisie, via le système d'échange de données « SED », au plus tard le 15 de chaque mois, les extraits des comptes Négoce International ouverts sur leurs livres, afférents au mois précédent, établis conformément à la structure d'enregistrement informatique objet de l'annexe.
+
+Article 17: Sont abrogées toutes dispositions antérieures contraires ou faisant double emploi avec la présente circulaire qui entre en vigueur à compter de sa notification.
+
+## Annexe à la circulaire aux I.A n°2015-11du 02/07/2015 1
+
+## Dessin d'enregistrement des états des mouvements des Comptes Négoce International
+
+Enregistrement en-tête :
+
+## Longueur d'enregistrement : 149 caractères
+
+**Numéro zone** : 1
+**Type *** : A 1
+**Longueur** : Type de
+**Nom de la zone** : l'enregistrement Indiquer en-tête.
+**Observations et définitions** : 'E' pour identifier l'enregistrement
+
+**Numéro zone** : 2 N
+**Type *** : 2
+**Longueur** : Code Intermédiaire
+**Nom de la zone** : Agréé
+**Observations et définitions** : Indiquer le code de l'Intermédiaire Agréé d'après le référentiel de la codification de la BCT (banques et établissements financiers)
+
+**Numéro zone** : 3 N
+**Type *** : 3
+**Longueur** : Code
+**Nom de la zone** : Agence Indiquer le référentiel (Agences)
+**Observations et définitions** : code de l'agence d'après le de codification de la BCT
+
+**Numéro zone** : N
+**Type *** : 3
+**Longueur** : Code devise du compte
+**Nom de la zone** : Code précisant la devise avec laquelle le compte est ouvert. A indiquer d'après le référentiel des codes devises de la BCT
+**Observations et définitions** : 4
+
+**Numéro zone** : X
+**Type *** : 20
+**Longueur** : Numéro du compte
+**Nom de la zone** : Indiquer les références attribuées par l'Intermédiaire Agréé pour l'identification du compte
+**Observations et définitions** : 5
+
+**Numéro zone** : N
+**Type *** : 8
+**Longueur** : Date d'ouverture
+**Nom de la zone** : Indiquer la date d'ouverture du compte sous la forme JJMMAAAA.
+**Observations et définitions** : 6
+
+**Numéro zone** : A
+**Type *** : 1
+**Longueur** : Type du
+**Nom de la zone** : compte Indiquer G : Négoce
+**Observations et définitions** : 7
+
+**Numéro zone** : N
+**Type *** : 6
+**Nom de la zone** : Période de l'extrait Indiquer le mois (1,2,3…12) suivi de l'année: MMAAAA
+**Observations et définitions** : 8
+
+**Numéro zone** : A
+**Type *** : 1
+**Longueur** : Type de
+**Nom de la zone** : l'identifiant du titulaire Mettre: F: pour le code fiscal du détenteur du compte
+**Observations et définitions** : 9
+
+**Numéro zone** : X
+**Type *** : 8
+**Nom de la zone** : Numéro d'identification du titulaire Indiquer le code fiscal du détenteur du compte
+**Observations et définitions** : 10
+
+**Numéro zone** : A
+**Type *** : 30
+**Longueur** : Titulaire du
+**Nom de la zone** : compte Indiquer la raison sociale du titulaire
+**Observations et définitions** : 11
+
+**Numéro zone** : 12 X
+**Longueur** : 30
+**Nom de la zone** : Adresse Indiquer l'adresse du titulaire
+
+**Numéro zone** : X
+**Type *** : 1
+**Nom de la zone** : Sens du solde ancien Mettre + si le solde est créditeur
+**Observations et définitions** : 13
+
+**Numéro zone** : N
+**Type *** : 15
+**Nom de la zone** : Solde ancien Solde des écritures enregistrées à la date de fin de la période relative à l'extrait du compte. A indiquer avec 3 chiffres après la virgule
+**Observations et définitions** : 14
+
+**Numéro zone** : N
+**Longueur** : 15
+**Nom de la zone** : Solde à nouveau Solde des écritures enregistrées à la date de fin de la période relative à l'extrait du compte. A indiquer avec 3 chiffres après la virgule
+**Observations et définitions** : 15
+
+**Numéro zone** : N
+**Type *** : 5
+**Nom de la zone** : Nombre d'écritures Indiquer le nombre d'écritures (débits et crédits) enregistrées sur l'extrait du compte au cours de la période déclarée. Cette zone est à remplir même si aucun mouvement n'a été enregistré par le compte (mettre dans ce cas
+**Observations et définitions** : 16
+
+## Enregistrement mouvement :
+
+## Longueur d'enregistrement : 149 caractères
+
+* A : Alphabétique, X : Alphanumérique, N : Numérique
+
+| Numéro zone | Type * | Longueur | Nom de la zone | Observations et définitions |
+|---------------|----------|------------|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | A | 1 | Type de l'enregistrement | Indiquer 'M' pour identifier l'enregistrement mouvement. |
+| 2 | N | 2 | Code Intermédiaire Agréé | Indiquer le code de l'Intermédiaire Agrée d'après le référentiel de la codification de la BCT (banques et établissements financiers). |
+| 3 | N | 3 | Code Agence | Indiquer le code de l'agence d'après le référentiel de codification de la BCT (Agences) |
+| 4 | X | 20 | Numéro du compte | Indiquer les références attribuées par l'Intermédiaire Agréé pour l'identification du compte. |
+| 5 | N | 8 | Date d'écriture | Indiquer sous la forme JJMMAAAA la date à laquelle l'écriture (débit ou crédit) est enregistrée dans le compte. |
+| 6 | N | 3 | Code devise du compte | Aindiquer d'après le référentiel des codes devises de la BCT |
+| 7 | X | 1 | Sens de l'opération | Mettre + si opération au crédit - si opération au débit |
+| 8 | N | 15 | Montant de l'opération | Indiquer le montant avec 3 chiffres après la virgule |
+| 9 | N | 8 | Date de valeur | Indiquer sous la forme JJMMAAAA |
+| 10 | A | 30 | Nom du fournisseur/client | Indiquer le nom et le prénom du fournisseur/client, selon la nature de l'opération |
+| 11 | X | 4 | Nature de l'opération | Code indiquant la nature de l'opération: 0121=Importations; 0122= Exportations; 0990= Emprunt (tirage/remboursement); 0999= Autres |
+| 12 | X | 54 | Zone vide | |

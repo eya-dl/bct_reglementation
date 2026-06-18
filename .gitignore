@@ -1,0 +1,30 @@
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables d'environnement
+.env
+
+# ChromaDB (souvent volumineux)
+chroma_db/
+chromadb/
+
+# Cache Hugging Face / modèles téléchargés
+.cache/
+hf_cache/
+models/
+
+# Fichiers temporaires
+temp/
+tmp/
+
+# Données générées
+*.pkl
+*.pickle
