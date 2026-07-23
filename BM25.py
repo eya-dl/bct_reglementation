@@ -147,7 +147,7 @@ def compute_boost(query, q_tokens, q_nums, chunk):
     Calcule un boost qui dépend réellement du contenu de la requête,
     et non plus un bonus fixe appliqué à tout le monde.
     """
-    boost = 0.0
+    boost = 0.3
 
     # --- Matching numérique sur document_number ---
     if q_nums and chunk.document_number:
@@ -177,7 +177,7 @@ def compute_boost(query, q_tokens, q_nums, chunk):
 
 
 # BM25 SEARCH + RÉPONSE
-def bm25_search(query, top_k=5):
+def bm25_search(query, top_k=15):
 
     query_tokens = tokenize(query)
     q_nums = extract_numbers(query)
@@ -207,7 +207,7 @@ def bm25_search(query, top_k=5):
 # ─────────────────────────────
 def answer(query):
 
-    results = bm25_search(query, top_k=3)
+    results = bm25_search(query, top_k=15)
 
     if not results:
         return "Aucun résultat trouvé."

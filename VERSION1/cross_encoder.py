@@ -10,9 +10,8 @@ from collections import defaultdict
 import os
 from dotenv import load_dotenv
 load_dotenv()
-print(repr(os.getenv("GROQ_API_KEY")))  # doit afficher ta clé, pas None
-
-# ── Configuration ─────────────────────────────────────────────────────────────
+print(repr(os.getenv("GROQ_API_KEY")))  
+#Configuration 
 
 BGE_PREFIX   = "Represent this sentence for searching relevant passages: "
 PICKLE_PATH  = "bm25_store.pkl"
@@ -33,8 +32,15 @@ BOOST_NUMBER_IN_TEXT = 3.0
 
 # LLM
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "groq")   # "groq" | "gemini"
-GROQ_API_KEY    = os.getenv("GROQ_API_KEY", "")
-GEMINI_API_KEY  = os.getenv("GEMINI_API_KEY", "")
+# Liste des clés Groq disponibles
+GROQ_API_KEYS = [
+    os.getenv("GROQ_API_KEY_1"),
+    os.getenv("GROQ_API_KEY_2"),
+]
+
+# On enlève les clés vides
+GROQ_API_KEYS = [key for key in GROQ_API_KEYS if key]
+
 GROQ_MODEL = "llama-3.3-70b-versatile"
 GEMINI_MODEL    = "gemini-1.5-flash"
 
@@ -76,7 +82,7 @@ def number_variants(num: str) -> set[str]:
         variants.update(parts)
     return variants
 
-# ── Texte BM25 ────────────────────────────────────────────────────────────────
+# Texte BM25 
 
 def build_bm25_text(c) -> str:
     parts = [
@@ -92,7 +98,7 @@ def build_bm25_text(c) -> str:
             extra.extend(number_variants(num))
     return " ".join(parts) + (" " + " ".join(extra) if extra else "")
 
-# ── Boost BM25 ────────────────────────────────────────────────────────────────
+# Boost BM25 
 
 def compute_boost(q_tokens: list, q_nums: set, chunk) -> float:
     boost = 0.0
@@ -112,7 +118,7 @@ def compute_boost(q_tokens: list, q_nums: set, chunk) -> float:
             boost += BOOST_TITLE_MATCH
     return boost
 
-# ── Chargement BM25 ───────────────────────────────────────────────────────────
+#Chargement BM25 
 
 def load_or_build_bm25(children):
     from rank_bm25 import BM25Okapi
@@ -130,7 +136,7 @@ def load_or_build_bm25(children):
     print(f"BM25 construit sur {len(children)} chunks")
     return bm25, children
 
-# ── Chargement ressources ─────────────────────────────────────────────────────
+#  Chargement ressources 
 
 def load_resources():
     print("Chargement BGE-M3...")
@@ -150,7 +156,7 @@ def load_resources():
 
     return model, reranker, collection, bm25, children
 
-# ── RRF ───────────────────────────────────────────────────────────────────────
+#  RRF 
 
 def rrf_score(rank: int, k: int = RRF_K) -> float:
     return 1.0 / (k + rank)
@@ -282,10 +288,18 @@ Lorsqu'une définition réglementaire est présente dans le contexte :
 - n'introduis pas de nouveaux concepts juridiques ;
 - ne remplace pas les termes réglementaires par des synonymes ;
 - distingue clairement le texte réglementaire de l'explication.
-Tu réponds UNIQUEMENT en te basant sur les textes réglementaires fournis dans le contexte.
-Si l'information n'est pas dans le contexte, dis clairement : "Je ne trouve pas cette information dans les textes fournis."
-Cite toujours la source (type de document, numéro, article) quand elle est disponible.
-Sois précis, structuré et professionnel. Réponds en français."""
+Règles obligatoires :
+N’écris jamais "Source", "Source 1", "Source 2", "texte fourni", "extrait", "document fourni" ou toute mention visible des sources dans la réponse finale.
+N’écris jamais "je ne trouve pas", "je ne dispose pas de l'information", "les textes fournis ne permettent pas", ou toute formulation qui montre un échec de recherche.
+ réponds uniquement à partir du contexte, ne combine pas les règles de catégories différentes
+ 
+Rédige comme une note réglementaire :
+   - pas de langage conversationnel,
+   - pas d’excuses,
+   - pas de phrases du type "selon les sources fournies".
+réponds uniquement à partir du contexte
+ La réponse doit être autonome et directement présentable à un client final.
+Sois précis, structuré et professionnel et court. Réponds en français."""
 
 
 def build_context(ranked: list[dict]) -> str:
@@ -302,37 +316,64 @@ def build_context(ranked: list[dict]) -> str:
     return "\n\n" + ("\n\n---\n\n").join(parts) + "\n"
 
 
+from groq import Groq
+from groq import RateLimitError
+
+
 def _generate_groq(query: str, context: str) -> str:
-    from groq import Groq
-    client   = Groq(api_key=
-    GROQ_API_KEY)
-    response = client.chat.completions.create(
-        model=GROQ_MODEL,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user",   "content": f"Contexte réglementaire :\n{context}\n\nQuestion : {query}"},
-        ],
-        temperature=0.1,
-        max_tokens=1024,
-    )
-    return response.choices[0].message.content
+    """
+    Utilise automatiquement une deuxième clé Groq
+    si la première atteint la limite de quota.
+    """
 
+    last_exception = None
 
-def _generate_gemini(query: str, context: str) -> str:
-    import google.generativeai as genai
-    genai.configure(api_key=GEMINI_API_KEY)
-    model    = genai.GenerativeModel(GEMINI_MODEL, system_instruction=SYSTEM_PROMPT)
-    response = model.generate_content(
-        f"Contexte réglementaire :\n{context}\n\nQuestion : {query}"
-    )
-    return response.text
+    for api_key in GROQ_API_KEYS:
+
+        try:
+
+            client = Groq(api_key=api_key)
+
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": SYSTEM_PROMPT
+                    },
+                    {
+                        "role": "user",
+                        "content": f"Contexte réglementaire :\n{context}\n\nQuestion : {query}"
+                    },
+                ],
+                temperature=0.1,
+                max_tokens=1024,
+            )
+
+            return response.choices[0].message.content
+
+        except RateLimitError as e:
+
+            print(f"⚠️ Quota atteint pour une clé Groq. Passage à la suivante...")
+            last_exception = e
+            continue
+
+        except Exception as e:
+
+            print(f"Erreur avec une clé Groq : {e}")
+            last_exception = e
+            continue
+
+    raise RuntimeError(
+        "Toutes les clés Groq sont indisponibles."
+    ) from last_exception
+
 
 
 def generate(query: str, context: str, provider: str = LLM_PROVIDER) -> str:
     if provider == "groq":
         return _generate_groq(query, context)
-    elif provider == "gemini":
-        return _generate_gemini(query, context)
+    
     else:
         raise ValueError(f"Provider inconnu : '{provider}'. Utilise 'groq' ou 'gemini'.")
 

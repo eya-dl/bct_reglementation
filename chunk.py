@@ -9,7 +9,6 @@ from collections import Counter
 MD_PREFIX_RE = re.compile(r"^#{1,6}\s+")
 
 def strip_md(line: str) -> str:
-    """Supprime le préfixe ## de Docling."""
     return MD_PREFIX_RE.sub("", line).strip()
 
 
@@ -29,8 +28,6 @@ DOCUMENT_PATTERNS = {
         re.IGNORECASE
     ),
     "avis": re.compile(
-        # Avec numéro : "AVIS DE CHANGE N°5"
-        # Sans numéro : "AVIS DE CHANGE DU MINISTRE..." → cas spécial
         r"^AVIS\s+(?:DE\s+CHANGE|DE\s+CHANGE\s+N[°º]?)",
         re.IGNORECASE
     ),
@@ -43,8 +40,6 @@ DOCUMENT_PATTERNS = {
         re.IGNORECASE
     ),
     "annexe": re.compile(
-        # ANNEXE I, ANNEXE II A LA CIRCULAIRE... → on les ignore comme documents
-        # mais on les détecte pour éviter qu'ils polluent le contexte
         r"^ANNEXE\s+(?:[IVXLC]+|[0-9]+)\s+",
         re.IGNORECASE
     ),
@@ -65,7 +60,6 @@ def extract_document_number(title: str) -> str:
 
 
 # ── Patterns structurels ──────────────────────────────────────────────────────
-# Appliqués sur la ligne APRÈS strip_md()
 
 STRUCTURE_PATTERNS = {
     "partie": re.compile(
@@ -77,8 +71,6 @@ STRUCTURE_PATTERNS = {
         re.IGNORECASE
     ),
     "chapitre": re.compile(
-        # "CHAPITRE PREMIER", "CHAPITRE I", "CHAPITRE 1"
-        # + tout ce qui suit sur la même ligne (Docling fusionne parfois titre+label)
         r"^CHAPITRE\s+(?:PREMIER|[IVXLC]+|\d+)\s*(?:[-–:.\s].*)?$",
         re.IGNORECASE
     ),
@@ -90,28 +82,16 @@ STRUCTURE_PATTERNS = {
         r"^PARAGRAPHE\s+\d+\s*(?:[-–:.].*)?$",
         re.IGNORECASE
     ),
-
-    # Section romaine STRICTE :
-    # "I - REGLES", "II  -  OPERATIONS", "III - MODALITES"
-    # Ne doit PAS matcher "Il est...", "I.A :..."
-    # Règle : chiffre romain SEUL suivi de [-–] puis majuscule
     "section_rom": re.compile(
         r"^(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\s*[-–]\s+[A-ZÀÂÇÈÉÊËÎÏÔÙÛÜ]",
         re.IGNORECASE
     ),
-
-    # Sous-section lettre : "A) Opérations", "B) - Opérations"
     "sous_section": re.compile(
         r"^[A-Z]\s*[)\-]\s+[A-ZÀÂÇÈÉÊËÎÏÔÙÛÜ]"
     ),
-
-    # Point numéroté : "1°) Les comptes...", "2°) Toute autre..."
     "point_num": re.compile(
         r"^\d+°\)\s+\S"
     ),
-
-    # Titres sans numéro détectés dans le corpus :
-    # "REGLES DE FONCTIONNEMENT", "DISPOSITIONS GENERALES"
     "titre_libre": re.compile(
         r"^(?:REGLES|DISPOSITIONS|CONDITIONS|MODALITES|OBLIGATIONS|DEFINITIONS)"
         r"\s+(?:DE\s+|D[EU]\s+|GENERALES?|COMMUNES?|DIVERSES?|RELATIVES?\s)",
@@ -119,13 +99,11 @@ STRUCTURE_PATTERNS = {
     ),
 }
 
-# Niveaux qui déclenchent un flush
 FLUSH_LEVELS = {
     "partie", "titre", "chapitre",
     "section_num", "section_rom", "paragraphe", "titre_libre"
 }
 
-# Niveaux qui génèrent un chunk parent
 PARENT_LEVELS = {"chapitre", "section", "paragraphe"}
 
 MAX_PARENT_TOKENS = 1200
@@ -133,6 +111,14 @@ MAX_PARENT_TOKENS = 1200
 ARTICLE_RE = re.compile(
     r"(Article\s+\d+\s*(?:er|bis|ter|nouveau|\d+)?\s*(?:\(nouveau\))?)",
     re.IGNORECASE
+)
+
+# ────────────────────────────────────────────────────────────────────────────
+# ✅ FIX 3 — Pattern pour détecter les items de liste (droits d'auteur, etc.)
+# ────────────────────────────────────────────────────────────────────────────
+LIST_ITEM_RE = re.compile(
+    r"^(?:\d+°?\s*[)\.]|\-\s|•\s|[a-z]\)\s)",
+    re.MULTILINE
 )
 
 
@@ -238,6 +224,11 @@ class BCTParser:
         self._doc_title  = ""
         self._doc_number = ""
 
+        # ────────────────────────────────────────────────────────────────────
+        # ✅ FIX 1 — Tracker l'article courant pour les chunks point_num
+        # ────────────────────────────────────────────────────────────────────
+        self._current_article: str = ""
+
     def _new_pid(self) -> str:
         self._pid += 1
         return f"{self.doc_name}__P__{self._pid:04d}"
@@ -278,7 +269,7 @@ class BCTParser:
                 results.append((title, body))
         return results
 
-    # ── Découpe sections romaines (quand pas d'articles) ─────────────────────
+    # ── Découpe sections romaines ─────────────────────────────────────────────
 
     def _split_roman_sections(self, text: str) -> list[tuple[str, str]]:
         pattern = re.compile(
@@ -300,6 +291,53 @@ class BCTParser:
             if sec_title or body:
                 results.append((sec_title, body))
         return results
+
+    # ────────────────────────────────────────────────────────────────────────
+    # ✅ FIX 3 — Découpe les gros blocs de liste (catégorie K décret 77-608)
+    # ────────────────────────────────────────────────────────────────────────
+
+    def _split_list_block(
+        self, header: str, body: str,
+        pid: str, breadcrumb: str, base: dict
+    ):
+        """
+        Découpe un bloc de liste (type 'K - OPERATIONS A CARACTERE GENERAL')
+        en sous-chunks thématiques quand le corps est trop long.
+        Stratégie : regrouper les items consécutifs jusqu'à max_child_tokens.
+        """
+        lines  = body.splitlines()
+        buffer = header  # démarre avec le titre de la section
+        part   = 1
+
+        for line in lines:
+            candidate = buffer + "\n" + line
+            if len(candidate.split()) > self.max_child_tokens and len(buffer.split()) > 5:
+                self.children.append(Chunk(
+                    chunk_id      = self._new_cid(),
+                    chunk_type    = "child",
+                    level         = "list_block",
+                    text          = buffer,
+                    parent_id     = pid,
+                    article_title = f"{header} (partie {part})",
+                    part_num      = part,
+                    **base,
+                ))
+                part  += 1
+                buffer = header + "\n" + line   # reset avec le titre pour garder le contexte
+            else:
+                buffer = candidate
+
+        if len(buffer.split()) > 5:
+            self.children.append(Chunk(
+                chunk_id      = self._new_cid(),
+                chunk_type    = "child",
+                level         = "list_block",
+                text          = buffer,
+                parent_id     = pid,
+                article_title = f"{header} (partie {part})",
+                part_num      = part,
+                **base,
+            ))
 
     # ── Découpe article long ──────────────────────────────────────────────────
 
@@ -325,7 +363,7 @@ class BCTParser:
                         **base,
                     ))
                     part_num += 1
-                buffer = alinea
+                buffer = art_title + "\n" + alinea  # ✅ FIX : réinsérer le titre pour chaque partie
             else:
                 buffer = candidate
         if len(buffer.split()) > 5:
@@ -353,7 +391,6 @@ class BCTParser:
         parent_level = self.ctx.parent_level()
         pid          = None
 
-        # Parent seulement si chapitre/section/paragraphe
         if parent_level:
             parent_text = text
             if len(text.split()) > MAX_PARENT_TOKENS:
@@ -370,7 +407,6 @@ class BCTParser:
                 **base,
             ))
 
-        # Enfants
         articles = self._split_articles(text)
 
         if articles:
@@ -378,6 +414,13 @@ class BCTParser:
                 is_intro  = (art_title == "__intro__")
                 full_text = art_body if is_intro else f"{art_title}\n{art_body}"
                 level     = "intro" if is_intro else "article"
+
+                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 1 — Mettre à jour l'article courant
+                # ────────────────────────────────────────────────────────────
+                if not is_intro:
+                    self._current_article = art_title
+
                 if len(full_text.split()) <= self.max_child_tokens:
                     self.children.append(Chunk(
                         chunk_id      = self._new_cid(),
@@ -411,56 +454,94 @@ class BCTParser:
                             **base,
                         ))
                     else:
-                        # Section trop longue → découpe par paragraphes
-                        paras    = [p.strip() for p in sec_body.split("\n\n") if p.strip()]
-                        buffer_p = sec_title
-                        for para in paras:
-                            candidate = buffer_p + "\n" + para
-                            if len(candidate.split()) > self.max_child_tokens:
-                                if len(buffer_p.split()) > 5:
-                                    self.children.append(Chunk(
-                                        chunk_id      = self._new_cid(),
-                                        chunk_type    = "child",
-                                        level         = "section_content",
-                                        text          = buffer_p,
-                                        parent_id     = pid or "",
-                                        article_title = sec_title,
-                                        **base,
-                                    ))
-                                buffer_p = para
-                            else:
-                                buffer_p = candidate
-                        if len(buffer_p.split()) > 5:
-                            self.children.append(Chunk(
-                                chunk_id      = self._new_cid(),
-                                chunk_type    = "child",
-                                level         = "section_content",
-                                text          = buffer_p,
-                                parent_id     = pid or "",
-                                article_title = sec_title,
-                                **base,
-                            ))
+                        # ────────────────────────────────────────────────────
+                        # ✅ FIX 3 — Utiliser _split_list_block si liste dense
+                        # ────────────────────────────────────────────────────
+                        list_items = LIST_ITEM_RE.findall(sec_body)
+                        if len(list_items) >= 3:
+                            self._split_list_block(
+                                sec_title, sec_body, pid or "", breadcrumb, base
+                            )
+                        else:
+                            paras    = [p.strip() for p in sec_body.split("\n\n") if p.strip()]
+                            buffer_p = sec_title
+                            for para in paras:
+                                candidate = buffer_p + "\n" + para
+                                if len(candidate.split()) > self.max_child_tokens:
+                                    if len(buffer_p.split()) > 5:
+                                        self.children.append(Chunk(
+                                            chunk_id      = self._new_cid(),
+                                            chunk_type    = "child",
+                                            level         = "section_content",
+                                            text          = buffer_p,
+                                            parent_id     = pid or "",
+                                            article_title = sec_title,
+                                            **base,
+                                        ))
+                                    buffer_p = sec_title + "\n" + para  # ✅ FIX : réinsérer le titre
+                                else:
+                                    buffer_p = candidate
+                            if len(buffer_p.split()) > 5:
+                                self.children.append(Chunk(
+                                    chunk_id      = self._new_cid(),
+                                    chunk_type    = "child",
+                                    level         = "section_content",
+                                    text          = buffer_p,
+                                    parent_id     = pid or "",
+                                    article_title = sec_title,
+                                    **base,
+                                ))
             else:
-                self.children.append(Chunk(
-                    chunk_id      = self._new_cid(),
-                    chunk_type    = "child",
-                    level         = "paragraph",
-                    text          = text,
-                    parent_id     = pid or "",
-                    **base,
-                ))
+                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 1 — Chunk paragraph : inclure le titre de l'article
+                #            courant pour les chunks point_num (PPR, etc.)
+                # ────────────────────────────────────────────────────────────
+                ctx_article = self._current_article
+                enriched    = (
+                    f"[Contexte : {ctx_article}]\n{text}"
+                    if ctx_article else text
+                )
+                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 3 — Bloc de liste trop grand → _split_list_block
+                # ────────────────────────────────────────────────────────────
+                if len(enriched.split()) > self.max_child_tokens:
+                    list_items = LIST_ITEM_RE.findall(text)
+                    header_line = text.splitlines()[0] if text.splitlines() else ""
+                    body_rest   = "\n".join(text.splitlines()[1:])
+                    if len(list_items) >= 3 and body_rest:
+                        self._split_list_block(
+                            header_line, body_rest, pid or "", breadcrumb, base
+                        )
+                    else:
+                        self.children.append(Chunk(
+                            chunk_id      = self._new_cid(),
+                            chunk_type    = "child",
+                            level         = "paragraph",
+                            text          = enriched,
+                            parent_id     = pid or "",
+                            article_title = ctx_article,
+                            **base,
+                        ))
+                else:
+                    self.children.append(Chunk(
+                        chunk_id      = self._new_cid(),
+                        chunk_type    = "child",
+                        level         = "paragraph",
+                        text          = enriched,
+                        parent_id     = pid or "",
+                        article_title = ctx_article,
+                        **base,
+                    ))
 
     # ── Parse ─────────────────────────────────────────────────────────────────
 
     def parse(self, text: str) -> tuple[list[Chunk], list[Chunk]]:
 
         for raw_line in text.splitlines():
-            # ── Clé du fix : strip_md() avant toute détection ────────────
             clean = strip_md(raw_line)
             if not clean:
                 continue
 
-            # ── Nouveau document ─────────────────────────────────────────
             doc_type = None
             for dtype, pat in DOCUMENT_PATTERNS.items():
                 if pat.match(clean):
@@ -469,17 +550,19 @@ class BCTParser:
 
             if doc_type:
                 if doc_type == "annexe":
-                    # On flush mais on ne change pas le contexte document
                     self._flush()
                     continue
                 self._flush()
+                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 1 — Reset l'article courant à chaque nouveau document
+                # ────────────────────────────────────────────────────────────
+                self._current_article = ""
                 self._doc_type   = doc_type
                 self._doc_title  = clean
                 self._doc_number = extract_document_number(clean)
                 self.ctx.set("document", clean)
                 continue
 
-            # ── Niveau structurel ────────────────────────────────────────
             level = None
             for lvl, pat in STRUCTURE_PATTERNS.items():
                 if pat.match(clean):
@@ -488,6 +571,10 @@ class BCTParser:
 
             if level in FLUSH_LEVELS:
                 self._flush()
+                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 1 — Reset l'article courant à chaque nouvelle section
+                # ────────────────────────────────────────────────────────────
+                self._current_article = ""
                 self.ctx.set(level, clean)
                 self._buffer.append(clean)
                 continue
@@ -525,7 +612,6 @@ def chunk_all_documents(md_folder: Path) -> tuple[list[Chunk], list[Chunk]]:
     print(f"\n{'─'*50}")
     print(f"TOTAL : {len(all_parents)} parents | {len(all_children)} enfants")
 
-
     print("\n── Distribution types documents ──")
     for dt, n in Counter(c.document_type for c in all_children).most_common():
         print(f"  {dt:20s} : {n}")
@@ -543,10 +629,25 @@ def chunk_all_documents(md_folder: Path) -> tuple[list[Chunk], list[Chunk]]:
     for key, n in nums.most_common(15):
         print(f"  {key:30s} : {n} chunks")
 
+    # ── Vérification des fixes ────────────────────────────────────────────────
+    print("\n── ✅ Vérification Fix 1 (article_title dans chunks paragraph) ──")
+    paragraph_with_ctx = [c for c in all_children
+                          if c.level == "paragraph" and c.article_title]
+    paragraph_without  = [c for c in all_children
+                          if c.level == "paragraph" and not c.article_title]
+    print(f"  Paragraphs avec article_title : {len(paragraph_with_ctx)}")
+    print(f"  Paragraphs sans article_title : {len(paragraph_without)}")
+
+    print("\n── ✅ Vérification Fix 3 (list_block chunks) ──")
+    list_blocks = [c for c in all_children if c.level == "list_block"]
+    print(f"  Chunks list_block créés : {len(list_blocks)}")
+    for c in list_blocks[:3]:
+        print(f"    {c.article_title} | {c.token_count} tokens")
+
     inconnus = [c for c in all_children if c.document_type == "inconnu"]
     if inconnus:
         print(f"\n── Échantillon chunks 'inconnu' ({len(inconnus)} total) ──")
-        for c in inconnus:
+        for c in inconnus[:5]:
             print(f"  breadcrumb : {c.breadcrumb}")
             print(f"  texte[100] : {c.text[:100]}")
             print()
