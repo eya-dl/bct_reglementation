@@ -9,8 +9,8 @@ Ce fichier ne contient AUCUNE logique métier — uniquement le câblage.
 
 from langgraph.graph import StateGraph, END
 
-from state import BCTState
-from nodes import (
+from agenticIA.state import BCTState
+from agenticIA.nodes import (
     node_contextualize,
     node_general_knowledge,
     node_intent_router,
@@ -27,7 +27,7 @@ from nodes import (
     node_hors_scope,
     node_salutation,
 )
-from routers import (
+from agenticIA.routers import (
     route_intent,
     route_hallucination,
     route_answer,

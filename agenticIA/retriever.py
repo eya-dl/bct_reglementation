@@ -20,14 +20,14 @@ import pickle
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
-from config import CROSS_REF_PATTERNS
+from agenticIA.config import CROSS_REF_PATTERNS
 
 
 from sentence_transformers import SentenceTransformer, CrossEncoder
 import chromadb
 
 
-from config import (
+from agenticIA.config import (
     BGE_PREFIX, PICKLE_PATH, CHROMA_PATH, COLLECTION, MD_FOLDER,
     RRF_K, N_CANDIDATES, N_RERANK, N_RESULTS,
     BOOST_NUMBER_MATCH, BOOST_TITLE_MATCH, BOOST_NUMBER_IN_TEXT,

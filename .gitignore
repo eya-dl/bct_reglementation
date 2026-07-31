@@ -3,6 +3,7 @@
 .venv_ragas/
 venv/
 env/
+testing/
 
 # Python
 __pycache__/

@@ -14,9 +14,9 @@ Les routers lisent l'état BCTState et retournent le nom du nœud suivant.
 import json
 from typing import Literal
 
-from config import MAX_RETRIES, MAX_REPLANS
-from tools import INTENT_PROMPT, invoke_with_full_fallback
-from state import BCTState
+from agenticIA.config import MAX_RETRIES, MAX_REPLANS
+from agenticIA.tools import INTENT_PROMPT, invoke_with_full_fallback
+from agenticIA.state import BCTState
 
 
 # ══════════════════════════════════════════════════════════════════════════════

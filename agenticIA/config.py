@@ -7,6 +7,7 @@ Seul fichier à modifier pour changer les paramètres du système.
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+import re
 
 load_dotenv()
 
@@ -128,11 +129,6 @@ Sois précis, structuré, professionnel et concis. Réponds en français."""
 # Limite de sécurité pour éviter une décomposition excessive (ex: question mal formée)
 MAX_SUBQUESTIONS = 5
 BOOST_PRIOR_DOCUMENT = 0.15  # boost du rerank_score pour les chunks du même document que la sous-question précédente
-
-BOOST_PRIOR_DOCUMENT = 0.15
-
-
-import re
 
 
 CROSS_REF_PATTERNS = [

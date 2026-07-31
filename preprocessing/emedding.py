@@ -13,8 +13,8 @@ MD_FOLDER    = Path("pdf_chunks")
 CHROMA_PATH  = "./chroma_db"
 COLLECTION   = "reglementation_bct"
 EMBED_MODEL  = "BAAI/bge-m3"
-MAX_SEQ_LEN  = 8192          # corrige le défaut 128 tokens de BGE-M3
-BATCH_SIZE   = 32            # 16 → 32 : x2 vitesse si GPU disponible
+MAX_SEQ_LEN  = 8192          
+BATCH_SIZE   = 32            
 BGE_PREFIX   = "Represent this sentence for searching relevant passages: "
 
 # Seuil de déduplication : ratio SequenceMatcher au-dessus duquel
@@ -70,7 +70,7 @@ def deduplicate_chunks(chunks: list) -> tuple[list, int]:
     return kept, removed
 
 
-#  CONSTRUCTION DU TEXTE D'EMBEDDING (VERSION AMÉLIORÉE)
+#  CONSTRUCTION DU TEXTE D'EMBEDDING 
 
 def generate_question_hint(chunk) -> str:
     

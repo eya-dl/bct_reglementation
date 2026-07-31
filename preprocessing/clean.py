@@ -128,12 +128,7 @@ def normalize_article_headers(markdown: str) -> str:
         "ARTICLE 5"         → "Article 5"
         "Art. 5"            → "Article 5"
     """
-    # ────────────────────────────────────────────────────────────────────
-    # ✅ FIX BCT-2 (cohérence avec chunk.py) — liste de suffixes ordinaux
-    # complète (quater/quinquies/sexto/septies/octies en plus de bis/ter),
-    # pour que le nettoyage n'introduise pas d'espacement bizarre sur des
-    # formes qu'ARTICLE_RE reconnaît désormais dans chunk.py.
-    # Espaces multiples dans "Article  1  er"
+    
     # ────────────────────────────────────────────────────────────────────
     markdown = re.sub(
         r"Article\s{2,}(\d+)\s*(er|bis|ter|quater|quinquies|sexto|septies|octies|nouveau)?",

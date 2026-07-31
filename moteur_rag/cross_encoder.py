@@ -354,7 +354,7 @@ def _generate_groq(query: str, context: str) -> str:
 
         except RateLimitError as e:
 
-            print(f"⚠️ Quota atteint pour une clé Groq. Passage à la suivante...")
+            print(f" Quota atteint pour une clé Groq. Passage à la suivante...")
             last_exception = e
             continue
 

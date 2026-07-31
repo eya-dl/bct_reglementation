@@ -12,10 +12,10 @@ Utilisation :
 """
 
 import time
-from retriever import load_resources
-from nodes import inject_resources
-from graph import build_bct_graph
-from state import initial_state
+from agenticIA.retriever import load_resources
+from agenticIA.nodes import inject_resources
+from agenticIA.graph import build_bct_graph
+from agenticIA.state import initial_state
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  INITIALISATION (exécutée une seule fois à l'import du module)

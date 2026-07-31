@@ -22,7 +22,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 
-from config import (
+from agenticIA.config import (
     GROQ_API_KEYS,
     GEMINI_API_KEYS,   # ← à créer dans config.py, liste au lieu d'une seule clé
     GROQ_MODEL,

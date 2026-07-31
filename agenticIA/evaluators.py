@@ -5,8 +5,8 @@ evaluators.py — Graders de qualité du pipeline agentique BCT
 
 import json
 import logging
-from config import CONTEXT_LIMIT
-from tools import (
+from agenticIA.config import CONTEXT_LIMIT
+from agenticIA.tools import (
     HALLUCINATION_PROMPT_V2,
     ANSWER_GRADER_PROMPT_V2,
     invoke_with_full_fallback,  # Groq + fallback Gemini pour plus de résilience

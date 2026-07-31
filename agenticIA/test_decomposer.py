@@ -1,5 +1,5 @@
 # test_decomposer.py
-from decomposer import is_composite, split_into_subquestions
+from agenticIA.decomposer import is_composite, split_into_subquestions
 test_cases = [
     # (query, doit_etre_composite)
     ("Quelles sont les conditions et modalités de rapatriement des devises ?", False),

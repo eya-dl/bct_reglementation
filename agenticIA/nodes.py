@@ -19,13 +19,13 @@ Nœuds :
   + node_hors_scope / node_salutation → réponses statiques
 """
 
-from config import LLM_PROVIDER, HORS_SCOPE_REPONSE, NOTION_GENERALE_DISCLAIMER, SALUTATION_REPONSE, MAX_SUBQUESTIONS
-from state import BCTState
-from tools import GENERAL_KNOWLEDGE_PROMPT, REWRITER_PROMPT, generate, invoke_with_full_fallback, format_subanswers_context
-from retriever import extract_cross_references, fetch_chunks_by_reference, run_retrieval, format_sources
-from evaluators import hallucination_grader, answer_grader
-from routers import intent_router
-from decomposer import is_composite, split_into_subquestions
+from agenticIA.config import LLM_PROVIDER, HORS_SCOPE_REPONSE, NOTION_GENERALE_DISCLAIMER, SALUTATION_REPONSE, MAX_SUBQUESTIONS
+from agenticIA.state import BCTState
+from agenticIA.tools import GENERAL_KNOWLEDGE_PROMPT, REWRITER_PROMPT, generate, invoke_with_full_fallback, format_subanswers_context
+from agenticIA.retriever import extract_cross_references, fetch_chunks_by_reference, run_retrieval, format_sources
+from agenticIA.evaluators import hallucination_grader, answer_grader
+from agenticIA.routers import intent_router
+from agenticIA.decomposer import is_composite, split_into_subquestions
 
 
 # ── Ressources RAG (injectées depuis pipeline.py au démarrage) ────────────────
@@ -114,7 +114,7 @@ def node_select_current_subquestion(state: BCTState) -> dict:
 #  NŒUD 4 — QUERY REWRITER
 # ══════════════════════════════════════════════════════════════════════════════
 
-from tools import REWRITER_PROMPT, REWRITER_ANAPHORA_PROMPT, generate, invoke_with_full_fallback, format_subanswers_context
+from agenticIA.tools import REWRITER_PROMPT, REWRITER_ANAPHORA_PROMPT, generate, invoke_with_full_fallback, format_subanswers_context
 
 
 def node_query_rewriter(state: BCTState) -> dict:
@@ -354,7 +354,7 @@ def node_salutation(state: BCTState) -> dict:
     return {"final_answer": SALUTATION_REPONSE, "sources": []}
 
 
-from tools import CONTEXTUALIZE_PROMPT, invoke_with_full_fallback
+from agenticIA.tools import CONTEXTUALIZE_PROMPT, invoke_with_full_fallback
 
 
 # ══════════════════════════════════════════════════════════════════════════════

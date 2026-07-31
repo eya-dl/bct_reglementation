@@ -3,7 +3,7 @@ import time
 import base64
 from dataclasses import dataclass
 from typing import Optional
-from pipeline import ask_bct
+from agenticIA.pipeline import ask_bct
 
 # Emblème BCT recoloré en blanc (silhouette pleine, alpha préservé) afin
 # d'être posé directement sur les fonds navy (masthead, sidebar) sans
