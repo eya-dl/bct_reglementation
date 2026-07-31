@@ -1,5 +1,6 @@
 # Environnement virtuel
 .venv/
+.venv_ragas/
 venv/
 env/
 

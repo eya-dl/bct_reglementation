@@ -38,19 +38,20 @@ LLM_PROVIDER    = os.getenv("LLM_PROVIDER", "groq")   # "groq" | "gemini"
 
 # ── Clés Groq ────────────────────────────────────────────────────────────────
 GROQ_API_KEYS = [
-    os.getenv("GROQ_API_KEY_1"),
-    os.getenv("GROQ_API_KEY_2"),
+    os.getenv(f"GROQ_API_KEY_{i}")
+    for i in range(1, 14)
 ]
-
 # Supprime les clés vides
+
 GROQ_API_KEYS = [k for k in GROQ_API_KEYS if k]
 
 if not GROQ_API_KEYS:
-    raise RuntimeError(
-        "Aucune clé Groq trouvée. Vérifie GROQ_API_KEY_1 et GROQ_API_KEY_2 dans ton .env"
-    )
+    raise RuntimeError("Aucune clé Groq trouvée.")
 
-print(f"🔑 {len(GROQ_API_KEYS)} clé(s) Groq chargée(s).")
+
+
+
+print(f" {len(GROQ_API_KEYS)} clé(s) Groq chargée(s).")
 
 GROQ_MODEL      = "llama-3.3-70b-versatile"
 

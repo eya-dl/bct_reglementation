@@ -31,8 +31,10 @@ from config import (
     SYSTEM_PROMPT,
 )
 
-# ── Rotation Groq (utilisée par get_llm ET invoke_with_fallback) ────────────
-# ── Rotation Groq ──────────────────────────────────────────────────────────
+# ── Rotation Groq (utilisée par get_llm, invoke_with_fallback ET generate) ──
+# Un seul itertools.cycle PARTAGÉ par tous les appelants : c'est ce qui garantit
+# une vraie répartition round-robin de la charge sur les N clés, plutôt que de
+# retomber systématiquement sur la clé n°1 en premier à chaque appel.
 _groq_cycle = itertools.cycle(GROQ_API_KEYS)
 
 def get_llm(api_key: str | None = None) -> ChatGroq:
@@ -334,10 +336,19 @@ def _generate_groq(query: str, context: str) -> str:
     Génération finale via Groq.
     Bascule automatiquement sur la clé suivante si la première
     atteint son quota (RateLimitError) ou échoue.
+
+    IMPORTANT : utilise le même _groq_cycle partagé que get_llm() et
+    invoke_with_fallback(), plutôt que de re-parcourir GROQ_API_KEYS depuis
+    le début à chaque appel. Sans ça, la clé n°1 est systématiquement
+    sollicitée en premier à CHAQUE génération, ce qui la fait plus vite
+    passer en rate-limit et gaspille un appel raté avant de basculer —
+    au lieu de vraiment répartir la charge sur les 10 clés en round-robin.
     """
     last_error = None
+    max_retries = len(GROQ_API_KEYS)
 
-    for api_key in GROQ_API_KEYS:
+    for _ in range(max_retries):
+        api_key = next(_groq_cycle)
 
         try:
             client = Groq(api_key=api_key)

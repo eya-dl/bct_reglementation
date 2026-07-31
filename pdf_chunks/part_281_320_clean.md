@@ -873,7 +873,7 @@ Vu la loi n° 2016-35 du 25 avril 2016 portant fixation du statut de la Banque C
 
 Vu le décret n° 77-608 du 27 juillet 1977 fixant les conditions d'application du code des changes et du commerce extérieur, tel que modifié par les textes subséquents et notamment le décret gouvernemental n° 2017-393 du 28 mars 2017;
 
-Vu le décret n°2012-2945 du 27 novembre 2012, portant application des dispositions de l'article 23 de la loi n° 88-92 du 2 août 1988 relative aux sociétés d'investissement et l'Article 22quinquies du code des organismes de placement collectif ;
+Vu le décret n°2012-2945 du 27 novembre 2012, portant application des dispositions de l'article 23 de la loi n° 88-92 du 2 août 1988 relative aux sociétés d'investissement et l'Article 22 quinquies du code des organismes de placement collectif ;
 
 Vu l'avis n° 2021-09 du comité de contrôle de la conformité du 14 décembre 2021, tel que prévu par l'article 42 de la loi n° 2016-35 du 25 avril 2016 portant fixation du statut de la Banque Centrale de Tunisie.
 
@@ -979,7 +979,7 @@ Montant en lettres…………………………………………..
 
 ## Pour les personnes morales :
 
-Je soussigné (nom et prénom, CNI n° ou CS n°……), représentant légal de la personne morale (dénomination sociale - Identifiant unique …), atteste par la présente que ladite personne morale, bénéficie de la qualité d'investisseur averti conformément au décret n° 2012-2945 du 27 novembre 2012, portant application des dispositions de l'article 23 de la loi n° 88-92 du 2 août 1988 relative aux sociétés d'investissement, et l'Article 22quinquies du code des organismes de placement collectif.
+Je soussigné (nom et prénom, CNI n° ou CS n°……), représentant légal de la personne morale (dénomination sociale - Identifiant unique …), atteste par la présente que ladite personne morale, bénéficie de la qualité d'investisseur averti conformément au décret n° 2012-2945 du 27 novembre 2012, portant application des dispositions de l'article 23 de la loi n° 88-92 du 2 août 1988 relative aux sociétés d'investissement, et l'Article 22 quinquies du code des organismes de placement collectif.
 
 Date
 

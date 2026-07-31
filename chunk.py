@@ -7,9 +7,21 @@ from collections import Counter
 # ── Nettoyage Markdown Docling ────────────────────────────────────────────────
 
 MD_PREFIX_RE = re.compile(r"^#{1,6}\s+")
+# ────────────────────────────────────────────────────────────────────────────
+# ✅ FIX BCT — strip_md retire aussi le gras Markdown ("**SECTION II**")
+# résiduel quand le pipeline Docling émet des titres en gras plutôt qu'en #.
+# Sans ça, les regex structurelles (^SECTION..., ^Article...) échouent car
+# la ligne commence par "**".
+# ────────────────────────────────────────────────────────────────────────────
+MD_BOLD_RE = re.compile(r"^\*\*(.+)\*\*$")
+
 
 def strip_md(line: str) -> str:
-    return MD_PREFIX_RE.sub("", line).strip()
+    line = MD_PREFIX_RE.sub("", line).strip()
+    m = MD_BOLD_RE.match(line)
+    if m:
+        line = m.group(1).strip()
+    return line
 
 
 # ── Patterns documents ────────────────────────────────────────────────────────
@@ -45,8 +57,13 @@ DOCUMENT_PATTERNS = {
     ),
 }
 
+# ────────────────────────────────────────────────────────────────────────────
+# ✅ FIX BCT-5 — le tiret devient optionnel : les Avis de Change sont
+# numérotés "n°3", "n°5" (un seul nombre, sans séparateur), alors que
+# l'ancien pattern exigeait deux groupes de chiffres séparés par -/–//.
+# ────────────────────────────────────────────────────────────────────────────
 DOCUMENT_NUMBER_RE = re.compile(
-    r"N[°º]?\s*([\d]{2,4}\s*[-–/]\s*[\d]{2,4}(?:\s*[-–/]\s*[\d]{2,4})?)",
+    r"N[°º]?\s*(\d{1,4}(?:\s*[-–/]\s*\d{1,4}){0,2})",
     re.IGNORECASE
 )
 
@@ -74,14 +91,24 @@ STRUCTURE_PATTERNS = {
         r"^CHAPITRE\s+(?:PREMIER|[IVXLC]+|\d+)\s*(?:[-–:.\s].*)?$",
         re.IGNORECASE
     ),
+    # ────────────────────────────────────────────────────────────────────
+    # ✅ FIX BCT-1 — accepte désormais chiffres arabes ET romains
+    # ("SECTION 1" et "SECTION II"), et ne réclame plus de titre sur la
+    # même ligne (le titre arrive en général sur la ligne suivante dans
+    # ce corpus). Le rattachement du titre est géré au niveau du parse()
+    # via un lookahead (_looks_like_title_line), pas dans la regex.
+    # ────────────────────────────────────────────────────────────────────
     "section_num": re.compile(
-        r"^SECTION\s+\d+\s*(?:[-–:.].*)?$",
+        r"^SECTION\s+(?:\d+|[IVXLC]+)\b\s*(?:[-–:.]\s*.*)?$",
         re.IGNORECASE
     ),
     "paragraphe": re.compile(
         r"^PARAGRAPHE\s+\d+\s*(?:[-–:.].*)?$",
         re.IGNORECASE
     ),
+    # NB : section_rom reste dédié aux lignes de la forme "II - TITRE"
+    # (roman + tiret + texte sur la même ligne), un format distinct de
+    # "SECTION II" pris en charge par section_num ci-dessus.
     "section_rom": re.compile(
         r"^(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\s*[-–]\s+[A-ZÀÂÇÈÉÊËÎÏÔÙÛÜ]",
         re.IGNORECASE
@@ -89,8 +116,12 @@ STRUCTURE_PATTERNS = {
     "sous_section": re.compile(
         r"^[A-Z]\s*[)\-]\s+[A-ZÀÂÇÈÉÊËÎÏÔÙÛÜ]"
     ),
+    # ────────────────────────────────────────────────────────────────────
+    # ✅ FIX BCT-3 — la parenthèse fermante devient optionnelle : le
+    # corpus contient à la fois "1°) Les..." et "1° Les..." (sans ")").
+    # ────────────────────────────────────────────────────────────────────
     "point_num": re.compile(
-        r"^\d+°\)\s+\S"
+        r"^\d+°\)?\s+\S"
     ),
     "titre_libre": re.compile(
         r"^(?:REGLES|DISPOSITIONS|CONDITIONS|MODALITES|OBLIGATIONS|DEFINITIONS)"
@@ -104,22 +135,56 @@ FLUSH_LEVELS = {
     "section_num", "section_rom", "paragraphe", "titre_libre"
 }
 
-PARENT_LEVELS = {"chapitre", "section", "paragraphe"}
+# ────────────────────────────────────────────────────────────────────────────
+# ✅ Fix code smell — source unique de vérité pour la hiérarchie parente.
+# Avant : PARENT_LEVELS était défini ici mais jamais utilisé, tandis que
+# HierarchyContext.parent_level() avait la même liste codée en dur en
+# double, avec un risque de divergence silencieuse. Maintenant
+# parent_level() consomme directement cette constante (voir plus bas).
+# L'ordre est important : priorité paragraphe > section > chapitre.
+# ────────────────────────────────────────────────────────────────────────────
+PARENT_LEVELS = ("paragraphe", "section", "chapitre")
 
 MAX_PARENT_TOKENS = 1200
 
+# ────────────────────────────────────────────────────────────────────────────
+# ✅ FIX BCT-2 — "Article premier" (sans chiffre) est maintenant reconnu,
+# et la liste des suffixes ordinaux latins est complète (bis/ter/quater/
+# quinquies/sexto/septies/octies), là où l'original s'arrêtait à "ter" et
+# retombait sur "\d+" (ce qui de toute façon ne matchait pas "quater" etc.
+# car ce ne sont pas des chiffres).
+# ────────────────────────────────────────────────────────────────────────────
 ARTICLE_RE = re.compile(
-    r"(Article\s+\d+\s*(?:er|bis|ter|nouveau|\d+)?\s*(?:\(nouveau\))?)",
+    r"(Article\s+(?:premier|\d+)\s*"
+    r"(?:bis|ter|quater|quinquies|sexto|septies|octies|nouveau)?\s*"
+    r"(?:\(nouveau\))?)",
     re.IGNORECASE
 )
 
 # ────────────────────────────────────────────────────────────────────────────
-# ✅ FIX 3 — Pattern pour détecter les items de liste (droits d'auteur, etc.)
+# ✅ FIX 3 (existant) — Pattern pour détecter les items de liste (droits d'auteur, etc.)
 # ────────────────────────────────────────────────────────────────────────────
 LIST_ITEM_RE = re.compile(
     r"^(?:\d+°?\s*[)\.]|\-\s|•\s|[a-z]\)\s)",
     re.MULTILINE
 )
+
+# ────────────────────────────────────────────────────────────────────────────
+# ✅ FIX BCT-4 — overlap entre chunks. Nombre de mots de "queue" repris du
+# chunk précédent au début du chunk suivant, quand un article/section/liste
+# est découpé en plusieurs parties. Évite qu'une phrase, un renvoi ou une
+# donnée chiffrée à cheval sur la coupure ne soit perdue sans filet.
+# ────────────────────────────────────────────────────────────────────────────
+OVERLAP_WORDS = 25
+OVERLAP_MARKER = "[...suite]"
+
+
+def _overlap_tail(text: str, n_words: int = OVERLAP_WORDS) -> str:
+    """Retourne les derniers n_words mots d'un texte (pour reprise en tête du chunk suivant)."""
+    words = text.split()
+    if len(words) <= n_words:
+        return text.strip()
+    return " ".join(words[-n_words:]).strip()
 
 
 # ── Contexte hiérarchique ─────────────────────────────────────────────────────
@@ -155,7 +220,8 @@ class HierarchyContext:
         return dict(self._ctx)
 
     def parent_level(self) -> str:
-        for level in ("paragraphe", "section", "chapitre"):
+        # ✅ Fix code smell : utilise désormais PARENT_LEVELS (source unique)
+        for level in PARENT_LEVELS:
             if self._ctx.get(level):
                 return level
         return ""
@@ -224,9 +290,7 @@ class BCTParser:
         self._doc_title  = ""
         self._doc_number = ""
 
-        # ────────────────────────────────────────────────────────────────────
-        # ✅ FIX 1 — Tracker l'article courant pour les chunks point_num
-        # ────────────────────────────────────────────────────────────────────
+        # ✅ FIX 1 (existant) — Tracker l'article courant pour les chunks point_num
         self._current_article: str = ""
 
     def _new_pid(self) -> str:
@@ -249,6 +313,32 @@ class BCTParser:
             "ctx_section":     snap.get("section", ""),
             "ctx_document":    snap.get("document", ""),
         }
+
+    # ────────────────────────────────────────────────────────────────────────
+    # ✅ FIX BCT-1 — détecte si une ligne ressemble à un titre de continuation
+    # (le titre de section/chapitre/titre qui suit sur la ligne d'après),
+    # pour pouvoir le rattacher au header ("SECTION II" + ligne suivante
+    # "MONTANT DE L'ALLOCATION" -> "SECTION II - MONTANT DE L'ALLOCATION").
+    # Heuristique : ligne courte, majoritairement en MAJUSCULES, qui n'est
+    # elle-même ni un en-tête de document, ni un autre marqueur structurel,
+    # ni un début d'article.
+    # ────────────────────────────────────────────────────────────────────────
+    def _looks_like_title_line(self, line: str) -> bool:
+        if not line or len(line.split()) > 12:
+            return False
+        for pat in DOCUMENT_PATTERNS.values():
+            if pat.match(line):
+                return False
+        for pat in STRUCTURE_PATTERNS.values():
+            if pat.match(line):
+                return False
+        if ARTICLE_RE.match(line):
+            return False
+        letters = [c for c in line if c.isalpha()]
+        if not letters:
+            return False
+        upper_ratio = sum(1 for c in letters if c.isupper()) / len(letters)
+        return upper_ratio > 0.7
 
     # ── Découpe articles ──────────────────────────────────────────────────────
 
@@ -293,7 +383,9 @@ class BCTParser:
         return results
 
     # ────────────────────────────────────────────────────────────────────────
-    # ✅ FIX 3 — Découpe les gros blocs de liste (catégorie K décret 77-608)
+    # ✅ FIX 3 (existant) — Découpe les gros blocs de liste
+    # ✅ FIX BCT-4 — chaque partie > 1 reprend en tête un overlap du texte
+    #    de fin de la partie précédente, en plus du header.
     # ────────────────────────────────────────────────────────────────────────
 
     def _split_list_block(
@@ -322,8 +414,9 @@ class BCTParser:
                     part_num      = part,
                     **base,
                 ))
+                overlap = _overlap_tail(buffer)
                 part  += 1
-                buffer = header + "\n" + line   # reset avec le titre pour garder le contexte
+                buffer = header + "\n" + OVERLAP_MARKER + " " + overlap + "\n" + line
             else:
                 buffer = candidate
 
@@ -340,6 +433,7 @@ class BCTParser:
             ))
 
     # ── Découpe article long ──────────────────────────────────────────────────
+    # ✅ FIX BCT-4 — overlap ajouté entre les parties d'un même article.
 
     def _split_long_article(
         self, art_title: str, art_body: str,
@@ -363,7 +457,8 @@ class BCTParser:
                         **base,
                     ))
                     part_num += 1
-                buffer = art_title + "\n" + alinea  # ✅ FIX : réinsérer le titre pour chaque partie
+                overlap = _overlap_tail(buffer)
+                buffer = art_title + "\n" + OVERLAP_MARKER + " " + overlap + "\n" + alinea
             else:
                 buffer = candidate
         if len(buffer.split()) > 5:
@@ -415,9 +510,7 @@ class BCTParser:
                 full_text = art_body if is_intro else f"{art_title}\n{art_body}"
                 level     = "intro" if is_intro else "article"
 
-                # ────────────────────────────────────────────────────────────
-                # ✅ FIX 1 — Mettre à jour l'article courant
-                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 1 (existant) — Mettre à jour l'article courant
                 if not is_intro:
                     self._current_article = art_title
 
@@ -454,15 +547,14 @@ class BCTParser:
                             **base,
                         ))
                     else:
-                        # ────────────────────────────────────────────────────
-                        # ✅ FIX 3 — Utiliser _split_list_block si liste dense
-                        # ────────────────────────────────────────────────────
+                        # ✅ FIX 3 (existant) — Utiliser _split_list_block si liste dense
                         list_items = LIST_ITEM_RE.findall(sec_body)
                         if len(list_items) >= 3:
                             self._split_list_block(
                                 sec_title, sec_body, pid or "", breadcrumb, base
                             )
                         else:
+                            # ✅ FIX BCT-4 — overlap entre parties de paragraphes
                             paras    = [p.strip() for p in sec_body.split("\n\n") if p.strip()]
                             buffer_p = sec_title
                             for para in paras:
@@ -478,7 +570,8 @@ class BCTParser:
                                             article_title = sec_title,
                                             **base,
                                         ))
-                                    buffer_p = sec_title + "\n" + para  # ✅ FIX : réinsérer le titre
+                                    overlap  = _overlap_tail(buffer_p)
+                                    buffer_p = sec_title + "\n" + OVERLAP_MARKER + " " + overlap + "\n" + para
                                 else:
                                     buffer_p = candidate
                             if len(buffer_p.split()) > 5:
@@ -492,18 +585,14 @@ class BCTParser:
                                     **base,
                                 ))
             else:
-                # ────────────────────────────────────────────────────────────
-                # ✅ FIX 1 — Chunk paragraph : inclure le titre de l'article
-                #            courant pour les chunks point_num (PPR, etc.)
-                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 1 (existant) — Chunk paragraph : inclure le titre de l'article
+                #    courant pour les chunks point_num (PPR, etc.)
                 ctx_article = self._current_article
                 enriched    = (
                     f"[Contexte : {ctx_article}]\n{text}"
                     if ctx_article else text
                 )
-                # ────────────────────────────────────────────────────────────
-                # ✅ FIX 3 — Bloc de liste trop grand → _split_list_block
-                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 3 (existant) — Bloc de liste trop grand → _split_list_block
                 if len(enriched.split()) > self.max_child_tokens:
                     list_items = LIST_ITEM_RE.findall(text)
                     header_line = text.splitlines()[0] if text.splitlines() else ""
@@ -537,10 +626,16 @@ class BCTParser:
 
     def parse(self, text: str) -> tuple[list[Chunk], list[Chunk]]:
 
-        for raw_line in text.splitlines():
-            clean = strip_md(raw_line)
-            if not clean:
-                continue
+        # ✅ FIX BCT-1 — liste indexable (au lieu d'un simple for) pour
+        # permettre le lookahead sur la ligne suivante (titre de section
+        # rattaché sur la ligne d'après).
+        lines = [strip_md(raw) for raw in text.splitlines()]
+        lines = [l for l in lines if l]
+        n = len(lines)
+        i = 0
+
+        while i < n:
+            clean = lines[i]
 
             doc_type = None
             for dtype, pat in DOCUMENT_PATTERNS.items():
@@ -551,16 +646,16 @@ class BCTParser:
             if doc_type:
                 if doc_type == "annexe":
                     self._flush()
+                    i += 1
                     continue
                 self._flush()
-                # ────────────────────────────────────────────────────────────
-                # ✅ FIX 1 — Reset l'article courant à chaque nouveau document
-                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 1 (existant) — Reset l'article courant à chaque nouveau document
                 self._current_article = ""
                 self._doc_type   = doc_type
                 self._doc_title  = clean
                 self._doc_number = extract_document_number(clean)
                 self.ctx.set("document", clean)
+                i += 1
                 continue
 
             level = None
@@ -571,21 +666,37 @@ class BCTParser:
 
             if level in FLUSH_LEVELS:
                 self._flush()
-                # ────────────────────────────────────────────────────────────
-                # ✅ FIX 1 — Reset l'article courant à chaque nouvelle section
-                # ────────────────────────────────────────────────────────────
+                # ✅ FIX 1 (existant) — Reset l'article courant à chaque nouvelle section
                 self._current_article = ""
-                self.ctx.set(level, clean)
-                self._buffer.append(clean)
+
+                # ────────────────────────────────────────────────────────────
+                # ✅ FIX BCT-1 — rattache le titre porté par la ligne suivante
+                # (ex. "SECTION II" puis "MONTANT DE L'ALLOCATION") au
+                # breadcrumb/contexte, au lieu de laisser ctx_section figé
+                # sur la valeur de la section précédente.
+                # ────────────────────────────────────────────────────────────
+                header_value = clean
+                consumed_next = False
+                if i + 1 < n and self._looks_like_title_line(lines[i + 1]):
+                    nxt = lines[i + 1]
+                    header_value = f"{clean} - {nxt}"
+                    consumed_next = True
+
+                self.ctx.set(level, header_value)
+                self._buffer.append(header_value)
+
+                i += 2 if consumed_next else 1
                 continue
 
             if level in ("sous_section", "point_num"):
                 self._flush()
                 self.ctx.set(level, clean)
                 self._buffer.append(clean)
+                i += 1
                 continue
 
             self._buffer.append(clean)
+            i += 1
 
         self._flush()
         return self.parents, self.children
@@ -643,6 +754,31 @@ def chunk_all_documents(md_folder: Path) -> tuple[list[Chunk], list[Chunk]]:
     print(f"  Chunks list_block créés : {len(list_blocks)}")
     for c in list_blocks[:3]:
         print(f"    {c.article_title} | {c.token_count} tokens")
+
+    # ────────────────────────────────────────────────────────────────────────
+    # ✅ Vérification FIX BCT-1/2/3/5 — comptages rapides pour valider les
+    # nouveaux patterns sur le corpus réel.
+    # ────────────────────────────────────────────────────────────────────────
+    print("\n── ✅ Vérification FIX BCT-2 (Article premier / suffixes) ──")
+    art_premier = [c for c in all_children if c.article_title and
+                   re.match(r"^Article\s+premier", c.article_title, re.IGNORECASE)]
+    art_suffixes = [c for c in all_children if c.article_title and
+                     re.search(r"\b(bis|ter|quater|quinquies|sexto|septies|octies)\b",
+                                c.article_title, re.IGNORECASE)]
+    print(f"  Chunks 'Article premier' : {len(art_premier)}")
+    print(f"  Chunks avec suffixe ordinal (bis/ter/quater/...) : {len(art_suffixes)}")
+
+    print("\n── ✅ Vérification FIX BCT-5 (numéro Avis de Change sans tiret) ──")
+    avis_avec_num = [c for c in all_children
+                      if c.document_type == "avis" and c.document_number]
+    avis_sans_num = [c for c in all_children
+                      if c.document_type == "avis" and not c.document_number]
+    print(f"  Avis de Change AVEC document_number : {len(avis_avec_num)}")
+    print(f"  Avis de Change SANS document_number : {len(avis_sans_num)}")
+
+    print("\n── ✅ Vérification FIX BCT-4 (overlap) ──")
+    overlap_chunks = [c for c in all_children if OVERLAP_MARKER in c.text]
+    print(f"  Chunks portant un overlap : {len(overlap_chunks)}")
 
     inconnus = [c for c in all_children if c.document_type == "inconnu"]
     if inconnus:

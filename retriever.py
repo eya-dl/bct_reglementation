@@ -9,8 +9,10 @@ Encapsule tout le pipeline de récupération :
   5. Reranking cross-encoder (BAAI/bge-reranker-v2-m3)
   6. Formatage du contexte pour le LLM
 
+
 Réutilise intégralement la logique de moteur_hybride.py.
 """
+
 
 import os
 import re
@@ -20,8 +22,10 @@ from collections import defaultdict
 from pathlib import Path
 from config import CROSS_REF_PATTERNS
 
+
 from sentence_transformers import SentenceTransformer, CrossEncoder
 import chromadb
+
 
 from config import (
     BGE_PREFIX, PICKLE_PATH, CHROMA_PATH, COLLECTION, MD_FOLDER,
@@ -30,16 +34,21 @@ from config import (
     EMBED_MODEL, RERANKER_MODEL, RERANKER_MAX_LEN, STOPWORDS_FR,BOOST_PRIOR_DOCUMENT,
 )
 
+
 # Import du chunker existant
 from chunk import chunk_all_documents
+
 
 # ── Regex ─────────────────────────────────────────────────────────────────────
 NUM_PATTERN = re.compile(r"\d{1,4}[-/]\d{1,4}|\d+")
 
 
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 #  NORMALISATION & TOKENISATION
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 def normalize(text: str) -> str:
     text = text.lower()
@@ -47,13 +56,19 @@ def normalize(text: str) -> str:
     return "".join(c for c in text if not unicodedata.combining(c))
 
 
+
+
 def tokenize(text: str) -> list[str]:
     tokens = re.findall(r"[a-z0-9]+", normalize(text))
     return [t for t in tokens if t not in STOPWORDS_FR]
 
 
+
+
 def extract_numbers(text: str) -> set[str]:
     return set(NUM_PATTERN.findall(text.lower()))
+
+
 
 
 def number_variants(num: str) -> set[str]:
@@ -66,9 +81,12 @@ def number_variants(num: str) -> set[str]:
     return variants
 
 
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 #  CHUNK MINIMAL (pour les résultats ChromaDB)
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 class SimpleChunk:
     """Représentation légère d'un chunk récupéré depuis ChromaDB."""
@@ -85,13 +103,18 @@ class SimpleChunk:
         self.parent_id       = meta.get("parent_id", "")
 
 
+
+
 def _meta_to_chunk(text: str, meta: dict) -> SimpleChunk:
     return SimpleChunk(text, meta)
+
+
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  BM25 — CONSTRUCTION DU TEXTE ET BOOST
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 def build_bm25_text(chunk) -> str:
     """Concatène les champs pertinents d'un chunk pour l'indexation BM25."""
@@ -107,6 +130,8 @@ def build_bm25_text(chunk) -> str:
         for num in extract_numbers(chunk.document_number):
             extra.extend(number_variants(num))
     return " ".join(parts) + (" " + " ".join(extra) if extra else "")
+
+
 
 
 def compute_boost(q_tokens: list, q_nums: set, chunk) -> float:
@@ -129,9 +154,12 @@ def compute_boost(q_tokens: list, q_nums: set, chunk) -> float:
     return boost
 
 
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 #  CHARGEMENT DES RESSOURCES
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 def load_or_build_bm25(children: list):
     """Charge le BM25 depuis le cache pickle ou le reconstruit."""
@@ -151,10 +179,13 @@ def load_or_build_bm25(children: list):
     return bm25, children
 
 
+
+
 def load_resources() -> tuple:
     """
     Charge toutes les ressources nécessaires au retrieval.
     À appeler une seule fois au démarrage.
+
 
     Retourne :
         (embed_model, reranker, collection, bm25, children)
@@ -162,22 +193,29 @@ def load_resources() -> tuple:
     print("  Chargement BGE-M3...")
     embed_model = SentenceTransformer(EMBED_MODEL)
 
+
     print("  Chargement CrossEncoder (reranker)...")
     reranker = CrossEncoder(RERANKER_MODEL, max_length=RERANKER_MAX_LEN)
+
 
     print("  Connexion ChromaDB...")
     client     = chromadb.PersistentClient(path=CHROMA_PATH)
     collection = client.get_collection(COLLECTION)
     print(f"  Collection : {collection.count()} chunks")
 
+
     print("  Chargement chunks...")
     _, children = chunk_all_documents(MD_FOLDER)
     bm25, children = load_or_build_bm25(children)
 
+
     return embed_model, reranker, collection, bm25, children
 
 
+
+
 #  RECHERCHE SÉMANTIQUE
+
 
 def semantic_search(
     query:      str,
@@ -204,7 +242,10 @@ def semantic_search(
     return results
 
 
+
+
 #  RECHERCHE BM25
+
 
 def bm25_search(
     query:    str,
@@ -216,6 +257,7 @@ def bm25_search(
     q_tokens = tokenize(query)
     q_nums   = extract_numbers(query)
     scores   = bm25.get_scores(q_tokens)
+
 
     results = []
     for idx, chunk in enumerate(children):
@@ -229,15 +271,22 @@ def bm25_search(
             "chunk":    chunk,
         })
 
+
     results.sort(key=lambda x: x["score"], reverse=True)
     return results[:n]
 
 
 
+
+
+
 #  FUSION RRF
+
 
 def rrf_score(rank: int, k: int = RRF_K) -> float:
     return 1.0 / (k + rank)
+
+
 
 
 def reciprocal_rank_fusion(
@@ -252,10 +301,12 @@ def reciprocal_rank_fusion(
     rrf_scores: dict[str, float]  = defaultdict(float)
     chunks_map: dict[str, object] = {}
 
+
     for rank, r in enumerate(bm25_results, start=1):
         cid = r["chunk_id"]
         rrf_scores[cid] += rrf_score(rank)
         chunks_map[cid]  = r["chunk"]
+
 
     for rank, r in enumerate(sem_results, start=1):
         cid = r["chunk_id"]
@@ -263,7 +314,9 @@ def reciprocal_rank_fusion(
         if cid not in chunks_map:
             chunks_map[cid] = r["chunk"]
 
+
     sorted_ids = sorted(rrf_scores, key=lambda x: rrf_scores[x], reverse=True)
+
 
     return [
         {
@@ -275,9 +328,12 @@ def reciprocal_rank_fusion(
     ]
 
 
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 #  RERANKING CROSS-ENCODER
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 def rerank(
     query:      str,
@@ -299,9 +355,12 @@ def rerank(
     return ranked[:top_n]
 
 
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 #  FORMATAGE DU CONTEXTE
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 def build_context(ranked: list[dict]) -> str:
     """Formate les chunks retenus en contexte lisible pour le LLM générateur."""
@@ -319,6 +378,10 @@ def build_context(ranked: list[dict]) -> str:
 
 
 
+
+
+
+
 def apply_prior_document_boost(
     ranked:          list[dict],
     prior_doc_refs:  set[tuple[str, str]] | None,
@@ -329,6 +392,7 @@ def apply_prior_document_boost(
     (type, numéro) que ceux retenus pour une sous-question précédente
     dans une décomposition composite.
 
+
     Ne filtre rien : un chunk hors de prior_doc_refs peut toujours
     remonter en tête s'il a un score nettement supérieur — c'est un
     biais doux, pas une contrainte stricte.
@@ -336,20 +400,23 @@ def apply_prior_document_boost(
     if not prior_doc_refs:
         return ranked
 
+
     for r in ranked:
         c = r["chunk"]
         key = (c.document_type, c.document_number)
         if key in prior_doc_refs:
             r["rerank_score"] = round(r["rerank_score"] + boost, 4)
             r["prior_boost_applied"] = True
-    
-    
+   
+   
     print(f"   🐛 DEBUG prior_doc_refs = {prior_doc_refs}")
+
 
     return sorted(ranked, key=lambda x: x["rerank_score"], reverse=True)
 # ══════════════════════════════════════════════════════════════════════════════
 #  PIPELINE RETRIEVAL COMPLET (utilisé par nodes.py)
 # ══════════════════════════════════════════════════════════════════════════════
+
 
 def run_retrieval(
     query:           str,
@@ -364,9 +431,11 @@ def run_retrieval(
     Exécute le pipeline complet :
       semantic_search + bm25_search → RRF → rerank → boost documentaire → build_context
 
+
     prior_doc_refs : ensemble de (document_type, document_number) à favoriser,
     utilisé pour les sous-questions dérivées d'une question composite —
     biaise le retrieval vers les mêmes textes que la sous-question précédente.
+
 
     Retourne :
         (ranked_chunks, context_str)
@@ -379,6 +448,7 @@ def run_retrieval(
     ranked       = ranked[:N_RESULTS]  # troncature finale après boost
     context      = build_context(ranked)
     return ranked, context
+
 
 def format_sources(ranked: list[dict]) -> list[dict]:
     """
@@ -401,6 +471,8 @@ def format_sources(ranked: list[dict]) -> list[dict]:
     ]
 
 
+
+
 def extract_cross_references(chunks: list) -> list[dict]:
     """
     Analyse le texte des chunks retenus pour détecter des références
@@ -409,8 +481,10 @@ def extract_cross_references(chunks: list) -> list[dict]:
     references = []
     seen = set()
 
+
     for chunk in chunks:
         text = chunk.get("text", "") or chunk.get("document", "")
+
 
         for pattern in CROSS_REF_PATTERNS:
             for match in pattern.finditer(text):
@@ -423,12 +497,16 @@ def extract_cross_references(chunks: list) -> list[dict]:
                 else:
                     ref = {"article": groups[0], "type": None, "number": None}
 
+
                 key = (ref["type"], ref["number"], ref["article"])
                 if key not in seen:
                     seen.add(key)
                     references.append(ref)
 
+
     return references
+
+
 
 
 def fetch_chunks_by_reference(references: list[dict], existing_ids: set, collection, top_k_per_ref: int = 2) -> list:
@@ -438,6 +516,7 @@ def fetch_chunks_by_reference(references: list[dict], existing_ids: set, collect
     """
     additional_chunks = []
 
+
     for ref in references:
         where_filter = {}
         if ref.get("number"):
@@ -445,8 +524,10 @@ def fetch_chunks_by_reference(references: list[dict], existing_ids: set, collect
         if ref.get("article"):
             where_filter["article_ref"] = ref["article"]
 
+
         if not where_filter:
             continue
+
 
         try:
             results = collection.get(
@@ -458,6 +539,7 @@ def fetch_chunks_by_reference(references: list[dict], existing_ids: set, collect
             print(f"   ⚠️ Erreur lookup cross-référence {ref} : {e}")
             continue
 
+
         for doc, meta, chunk_id in zip(results.get("documents", []), results.get("metadatas", []), results.get("ids", [])):
             if chunk_id in existing_ids:
                 continue
@@ -468,5 +550,6 @@ def fetch_chunks_by_reference(references: list[dict], existing_ids: set, collect
                 "cross_referenced": True,  # marqueur pour l'affichage/debug
             })
             existing_ids.add(chunk_id)
+
 
     return additional_chunks
