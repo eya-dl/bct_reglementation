@@ -8,6 +8,8 @@
 ![HuggingFace](https://img.shields.io/badge/BGE--M3-embeddings-FFD21E?logo=huggingface&logoColor=black)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?logo=streamlit&logoColor=white)
 
+![Chat interface](docs/chat_interface.png)
+
 ## Why this project
 
 Bank staff answering regulatory questions have to search a ~60-document corpus (laws, decrees, circulars and *avis de change* from 1975 to 2024) where one rule often refers to another. A generic chatbot invents article numbers; this assistant only answers from retrieved text and shows its sources.
@@ -42,6 +44,8 @@ flowchart LR
     SUB -->|more sub-questions| R
     SUB --> F[Final answer<br/>+ sources]
 ```
+
+![Layered architecture](docs/architecture.png)
 
 **Ingestion**: PDFs are parsed with Docling (OCR for scanned pages), cleaned, split along the legal hierarchy, embedded and stored in ChromaDB with metadata (`source`, `theme`, `article_ref`, `chunk_type`…).
 
